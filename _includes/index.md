@@ -39,5 +39,5 @@ Publications
 + China Patent Number: ZL 2011 0362063.8
 + China Patent [CN102521584 (A)](http://www.google.com/patents/CN102521584A?cl=en) / [CN102521584 (B)](http://www.google.com/patents/CN102521584B?cl=en)
 
-[中文版](/cn/)
+[中文版](/cn/index.html)
 ------------

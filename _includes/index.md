@@ -1,10 +1,11 @@
 Demo
 -------
 
+![Reflective Line Scan Palmprint Device](/img/reflective-line-scan-palmprint-device.png)
 
-![Line Scan Device Model](/img/10acis_device.png)
+![Line Scan Palmprint Device Model](/img/line-scan-palmprint-device-model.png)
 
-![Line Scan Device](/img/10bdevice.png)
+![Line Scan Palmprint Device Demo](/img/line-palmprint-demo.png)
 
 
 
@@ -16,16 +17,14 @@ Sensor
 System
 ------
 
+### Synchronizing Unit
 
-
-Data Set
-----------------
-
-
+### FPGA
 
 Future Applications
 ------------
 
+![Smaller Line Scan Palmprint Device](/img/smaller-line-scan-palmprint-device.png)
 
 
 Publications

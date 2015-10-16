@@ -34,4 +34,4 @@
 + 已授权
 + 专利号： ZL 20110362063.8
 + 申请号： CN201110362063
-+ 公开号： CN102521584A / CN102521584B
++ 公开号： [CN102521584A](http://www.google.com/patents/CN102521584A?cl=en) / [CN102521584B](http://www.google.com/patents/CN102521584B?cl=en)

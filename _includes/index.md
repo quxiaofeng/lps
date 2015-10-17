@@ -21,6 +21,10 @@ System
 
 ### FPGA
 
+![FPGA Board Block Diagram](/img/fpga-board-block-diagram.png)
+
+![FPGA Board PCB Layout](/img/fpga-board-pcb-layout.png)
+
 Future Applications
 ------------
 

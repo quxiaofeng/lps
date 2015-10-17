@@ -1,7 +1,7 @@
 Demo
 -------
 
-![Reflective Line Scan Palmprint Device](/img/reflective-line-scan-palmprint-device.png)
+
 
 ![Line Scan Palmprint Device Model](/img/line-scan-palmprint-device-model.png)
 
@@ -25,8 +25,12 @@ System
 
 ![FPGA Board PCB Layout](/img/fpga-board-pcb-layout.png)
 
+
+
 Future Applications
 ------------
+
+![Reflective Line Scan Palmprint Device](/img/reflective-line-scan-palmprint-device.png)
 
 ![Smaller Line Scan Palmprint Device](/img/smaller-line-scan-palmprint-device.png)
 
@@ -42,5 +46,5 @@ Publications
 + China Patent Number: ZL 2011 0362063.8
 + China Patent [CN102521584 (A)](http://www.google.com/patents/CN102521584A?cl=en) / [CN102521584 (B)](http://www.google.com/patents/CN102521584B?cl=en)
 
-[中文版](/cn/index.html)
+[中文版](/cn/)
 ------------

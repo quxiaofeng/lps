@@ -19,9 +19,9 @@
 系统
 ------
 
-### Synchronizing Unit
+### 运动反馈同步单元
 
-### FPGA
+### FPGA 电路板
 
 ![FPGA 电路板框图](/img/fpga-board-block-diagram.png)
 

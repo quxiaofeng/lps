@@ -19,7 +19,7 @@ System
 
 ### Synchronizing Unit
 
-### FPGA
+### FPGA Board
 
 ![FPGA Board Block Diagram](/img/fpga-board-block-diagram.png)
 

@@ -47,6 +47,6 @@
 + [已授权](/docs/CN102521584B.pdf)
 + 专利号： ZL 20110362063.8
 + 申请号： CN201110362063
-+ 公开号： [CN102521584A](http://www.google.com/patents/CN102521584A?cl=en) / [CN102521584B](http://www.google.com/patents/CN102521584B?cl=en)
++ 公开号： [CN102521584A](http://www.google.com/patents/CN102521584A?cl=zh) / [CN102521584B](http://www.google.com/patents/CN102521584B?cl=zh)
 
 包括使用线扫描 CCD 传感器的多次反射式掌纹图像采集设备和使用接触式线扫描模组的掌纹图像采集设备。两种采集设备都使用了相同运动反馈同步单元，既一对滚轴、齿轮组和光电编码器组成。

@@ -54,6 +54,10 @@ FPGA 电路板尺寸及布线如下图所示。
 相关文献
 ------------
 
+### 论文
+
++ X. Qu, D. Zhang, and G. Lu, “A novel line scan palmprint acquisition system,” *will appear in Systems, Man, and Cybernetics: Systems, IEEE Transactions on*.
+
 ### 专利
 
 #### 一种人体掌纹图像采集装置及处理方法

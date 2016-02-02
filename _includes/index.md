@@ -36,7 +36,7 @@ $$
 S\_L=25.4\\times{}S\_M=\\frac{25.4\\times{}P}{M\_R\\cdot{}R\_f}=\\frac{25.4\\times{}P\_e}{\\pi\\cdot{}D\_R\\cdot{}R\_g\\cdot{}R\_f}
 $$
 
-In our prototype device, the photoelectric encoder is industry standard at 500 pulses per round (\\(P\_e=500\\)). The rollers' diameter is 10 mm. The gear ratio \\(R\_g\\) is \\(2 : 1\\). The filter ratio \\(R\_f\\) is \\(2 : 1\\). Under this condition, the vertical resolution (along the rolling direction) is 101.1 dpi, which is close to the resolution along the width direction of the CIS module (100 dpi).
+In our prototype device, the photoelectric encoder is industry standard at 500 pulses per round (\\(P\_e=500\\)). The rollers' diameter, \\(D\_R\\), is 10 mm. The gear ratio \\(R\_g\\) is \\(2 : 1\\). The filter ratio \\(R\_f\\) is \\(2 : 1\\). Under this condition, the vertical resolution (along the rolling direction) is 101.1 dpi, which is close to the resolution along the width direction of the CIS module (100 dpi).
 
 ### FPGA Board
 

@@ -22,6 +22,10 @@ System
 
 ### Synchronizing Unit
 
+Test a equation
+
+$$ \frac{2}{3}\pi $$
+
 ### FPGA Board
 
 ![FPGA Board Block Diagram](/img/fpga-board-block-diagram.png)

@@ -9,6 +9,8 @@
 
 线扫掌纹识别系统，使用高集成度的线扫描模组搭建掌纹识别系统。可以显著缩小体积，同时保持掌纹识别的高性能，是面向下一代掌纹识别的新系统。
 
+由线扫描相机组成的成像系统（参见[链接][linear-system]）便于进行高精度高速度的图像采集。
+
 演示系统
 -------
 
@@ -73,3 +75,4 @@ FPGA 电路板尺寸及布线如下图所示。
 [csxfqu]: http://www.quxiaofeng.me/about
 [csdzhang]: http://www4.comp.polyu.edu.hk/~csdzhang/
 [csgmlu]: http://www.hitsz.edu.cn/body/shizi/detailen.php?strID=396
+[linear-system]: http://www.adlinktech.com/industrial_automation/PC-Based_Line-Scan.php

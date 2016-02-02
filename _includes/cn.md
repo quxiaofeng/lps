@@ -54,9 +54,9 @@ FPGA 电路板尺寸及布线如下图所示。
 相关文献
 ------------
 
-### 论文
+### 期刊论文
 
-+ X. Qu, D. Zhang, and G. Lu, “A novel line scan palmprint acquisition system,” *will appear in Systems, Man, and Cybernetics: Systems, IEEE Transactions on*.
++ [Qu, Xiaofeng][csxfqu]; [Zhang, David][csdzhang]; [Lu, Guangming][csgmlu], ["A Novel Line-Scan Palmprint Acquisition System (一种新型线扫描掌纹采集系统),"][TSMC-LPS] in Systems, Man, and Cybernetics: Systems, IEEE Transactions on , vol.PP, no.99, pp.1-11
 
 ### 专利
 
@@ -68,3 +68,8 @@ FPGA 电路板尺寸及布线如下图所示。
 + 公开号： [CN102521584A](http://www.google.com/patents/CN102521584A?cl=zh) / [CN102521584B](http://www.google.com/patents/CN102521584B?cl=zh)
 
 包括使用线扫描 CCD 传感器的多次反射式掌纹图像采集设备和使用接触式线扫描模组的掌纹图像采集设备。两种采集设备都使用了相同运动反馈同步单元，既一对滚轴、齿轮组和光电编码器组成。
+
+[TSMC-LPS]: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7390297&isnumber=6376248
+[csxfqu]: http://www.quxiaofeng.me/about
+[csdzhang]: http://www4.comp.polyu.edu.hk/~csdzhang/
+[csgmlu]: http://www.hitsz.edu.cn/body/shizi/detailen.php?strID=396

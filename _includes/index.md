@@ -24,7 +24,7 @@ System
 
 The motion on the rollers is digitized by the photoelectric encoder to send out synchronizing pulses through the gear set. The image resolution on the motion direction is defined by the rollers and the gear ratio.
 
-Given a gear ratio, \\(R_g\\), and the diameter of rollers, \\(D_R\\), when the hand moves \\(M_R=\pi D_R\\), the roller rotates one round. Then the axis of the encoder rotates \\(R_g\\) rounds. If the encoder sends out \\(P_e\\) pulses per round, the encoder sends out \\(P=\frac{P_e}{R_g}\\) pulses for \\(R_g\\) rounds. It means that when the hand moves \\(M_R\\) mm, the encoder sends out \\(P\\) pulses. For a filter ratio \\(R_f\\), the sensor only captures \\(\frac{P}{R_f}\\) lines, then the resolution \\(S_M\\) (in metric) can be computed by dividing the number of captured lines \\(\frac{P}{R_f}\\) by the distance \\(M_R\\), as follows:
+Given a gear ratio, \\\\(R_g\\\\), and the diameter of rollers, \\(D_R\\), when the hand moves \\(M_R=\pi D_R\\), the roller rotates one round. Then the axis of the encoder rotates \\(R_g\\) rounds. If the encoder sends out \\(P_e\\) pulses per round, the encoder sends out \\(P=\frac{P_e}{R_g}\\) pulses for \\(R_g\\) rounds. It means that when the hand moves \\(M_R\\) mm, the encoder sends out \\(P\\) pulses. For a filter ratio \\(R_f\\), the sensor only captures \\(\frac{P}{R_f}\\) lines, then the resolution \\(S_M\\) (in metric) can be computed by dividing the number of captured lines \\(\frac{P}{R_f}\\) by the distance \\(M_R\\), as follows:
 
 $$
 S_M=\frac{\frac{P}{R_f}}{M_R} =\frac{P}{M_R\cdot{}R_f}

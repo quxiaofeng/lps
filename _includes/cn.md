@@ -33,6 +33,22 @@
 
 ### 运动反馈同步单元
 
+The motion on the rollers is digitized by the photoelectric encoder to send out synchronizing pulses through the gear set. The image resolution on the motion direction is defined by the rollers and the gear ratio.
+
+Given a gear ratio, \\(R\_g\\), and the diameter of rollers, \\(D\_R\\), when the hand moves \\(M\_R=\\pi D\_R\\), the roller rotates one round. Then the axis of the encoder rotates \\(R\_g\\) rounds. If the encoder sends out \\(P\_e\\) pulses per round, the encoder sends out \\(P=\\frac{P\_e}{R\_g}\\) pulses for \\(R\_g\\) rounds. It means that when the hand moves \\(M\_R\\) mm, the encoder sends out \\(P\\) pulses. For a filter ratio \\(R\_f\\), the sensor only captures \\(\\frac{P}{R\_f}\\) lines, then the resolution \\(S\_M\\) (in metric) can be computed by dividing the number of captured lines \\(\frac{P}{R\_f}\\) by the distance \\(M\_R\\), as follows:
+
+$$
+S_M=\\frac{\\frac{P}{R\_f}}{M\_R} = \\frac{P}{M\_R\\cdot{}R\_f}
+$$
+
+Here, the unit of the \\(S\_M\\) is lines per mm. One inch is 25.4 mm. Thus, the resolution \\(S\_L\\) (in dpi) can be defined as following equation.
+
+$$
+S\_L=25.4\\times{}S\_M=\\frac{25.4\\times{}P}{M\_R\\cdot{}R\_f}=\\frac{25.4\\times{}P\_e}{\\pi\\cdot{}D\_R\\cdot{}R\_g\\cdot{}R\_f}
+$$
+
+In our prototype device, the photoelectric encoder is industry standard at 500 pulses per round (\\(P\_e=500\\)). The rollers' diameter, \\(D\_R\\), is 10 mm. The gear ratio \\(R\_g\\) is \\(2 : 1\\). The filter ratio \\(R\_f\\) is \\(2 : 1\\). Under this condition, the vertical resolution (along the rolling direction) is 101.1 dpi, which is close to the resolution along the width direction of the CIS module (100 dpi).
+
 ### FPGA 电路板
 
 FPGA 功能如下图所示。

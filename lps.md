@@ -76,4 +76,4 @@ This kind of palmprint system uses an area scan camera, which is a camera with a
 [Jain2009]: http://biometrics.cse.msu.edu/Publications/Palmprints/JainFeng_LatentPalm_PAMI2008.pdf
 [Laadjel2009]: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5414617
 [Dai2011]: http://research.microsoft.com/en-us/um/people/jifdai/publications/PAMI_MultiFeature_2011.pdf
-[Biometricapplications2011]: http://www.findbiometrics.com/
+[Biometricapplications2011]: http://findbiometrics.com/applications/

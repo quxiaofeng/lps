@@ -1,5 +1,7 @@
-markdown: redcarpet
 pygments: true
+
+url: http://www.linescanpalmprint.ml
+baseurl:
 
 title_tag_text: "LPS, Next Generation Palmprint System"
 h1_tag_text: "Line Scan Palmprint System"

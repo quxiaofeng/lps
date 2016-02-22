@@ -45,9 +45,9 @@ A flatbed scanner captures contact palmprint images in high resolution. It has b
 
 Web cameras are fast, flexible, and very compact. They are suitable for real-time video surveillance applications. \hl{WCBS have been} examined by \hl{a number} of researchers, mainly Han et al.\cite{Han2007b}, \hl{Goh et al.\cite{Ong2008}, and Zhu and Zhang\cite{Zhu2010}.} They made great contributions in real-time palmprint tracking and \hl{in optimizing illumination.}
 
-Han et al.\cite{Han2007b} (Fig.~\ref{fig_webcam_1}) proposed a system based on two web cameras \hl{to} track a free palm by comparing the visible spectrum image and the near-infrared image taken by the two cameras respectively.
+Han et al.\cite{Han2007b} (Fig. \ref{fig_webcam_1}) proposed a system based on two web cameras \hl{to} track a free palm by comparing the visible spectrum image and the near-infrared image taken by the two cameras respectively.
 
-\hl{Goh et al.\cite{Ong2008} (Fig.~\ref{fig_webcam_2})} proposed a web camera based system, in which a simple case was built to protect the system against \hl{environmental light}. They used an effective free palm tracking method in this system. This system used a web camera with a $640 \times 480$ resolution to capture hand images. After the hand \hl{is} tracked in the images, the hand images were further down-sampled using two-dimensional (2D) wavelet transform. The ROIs extracted from hand images were normalized to $150 \times 150$.
+\hl{Goh et al.\cite{Ong2008} (Fig. \ref{fig_webcam_2})} proposed a web camera based system, in which a simple case was built to protect the system against \hl{environmental light}. They used an effective free palm tracking method in this system. This system used a web camera with a $640 \times 480$ resolution to capture hand images. After the hand \hl{is} tracked in the images, the hand images were further down-sampled using two-dimensional (2D) wavelet transform. The ROIs extracted from hand images were normalized to $150 \times 150$.
 
 \hl{Zhu and Zhang\cite{Zhu2010} (Fig.~\ref{fig_webcam_3})} proposed another \hl{WCBS} in 2010, in which \hl{light uniformity} was carefully examined. Under the evenly distributed light, the hand image quality was improved, and when the false acceptance rate (FAR) is 0.17\%, the genuine acceptance rate (GAR) is 99.43\%.
 

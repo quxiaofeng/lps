@@ -33,9 +33,9 @@ Fig. 1 Web camera based palmprint capturing devices address the illumination and
 This paper is organized as follows: Section {sec_review} reviews existing acquisition systems. In Section {sec_sys}, the details of the structure and each component of our line-scan palmprint acquisition system (LPS) are presented. In Section {sec_exp}, the system performance is evaluated by verification experiments. Comparisons between the proposed system and area-based systems are also presented here. Section  {sec_concl} concludes this paper.
 
 
-\section{Existing Systems}\label{sec_review}
+## Existing Systems {sec_review}
 
-There are three different kinds of palmprint acquisition systems capturing palmprint images in different conditions\hl{:} Flatbed scanners capture pressed images [Ong2003, Han2003, Connie2005, Lin2005, Goh2006, Badrinath2007, Zheng2007a, Struc2008}. Systems with a digital camera or a web camera \hl{that} capture unconstrained images [Shu1998, Kumar2003, Han2007b, Ong2008, Chaudhary2009, Zhu2010, Ong2010,Aykut2013, Genovese2014}. Systems with a pegged flat platen surface \hl{that} capture stable images [Kong2002, Zhang2003a, Kong2003, Wong2005, Kong2006, Hao2008, Wang2008, Kong2009, Li2009, Zhang2009, Zhang2010, Zhang2010b}.
+There are three different kinds of palmprint acquisition systems capturing palmprint images in different conditions:} Flatbed scanners capture pressed images [Ong2003, Han2003, Connie2005, Lin2005, Goh2006, Badrinath2007, Zheng2007a, Struc2008}. Systems with a digital camera or a web camera that} capture unconstrained images [Shu1998, Kumar2003, Han2007b, Ong2008, Chaudhary2009, Zhu2010, Ong2010,Aykut2013, Genovese2014}. Systems with a pegged flat platen surface that} capture stable images [Kong2002, Zhang2003a, Kong2003, Wong2005, Kong2006, Hao2008, Wang2008, Kong2009, Li2009, Zhang2009, Zhang2010, Zhang2010b}.
 
 \subsection{Flatbed Scanner}
 
@@ -43,15 +43,15 @@ A flatbed scanner captures contact palmprint images in high resolution. It has b
 
 \subsection{Web Camera Based Systems}
 
-Web cameras are fast, flexible, and very compact. They are suitable for real-time video surveillance applications. \hl{WCBS have been} examined by \hl{a number} of researchers, mainly Han et al. [Han2007b}, \hl{Goh et al. [Ong2008}, and Zhu and Zhang [Zhu2010}.} They made great contributions in real-time palmprint tracking and \hl{in optimizing illumination.}
+Web cameras are fast, flexible, and very compact. They are suitable for real-time video surveillance applications. WCBS have been} examined by a number} of researchers, mainly Han et al. [Han2007b}, Goh et al. [Ong2008}, and Zhu and Zhang [Zhu2010}.} They made great contributions in real-time palmprint tracking and in optimizing illumination.}
 
-Han et al. [Han2007b} (Fig. \ref{fig_webcam_1}) proposed a system based on two web cameras \hl{to} track a free palm by comparing the visible spectrum image and the near-infrared image taken by the two cameras respectively.
+Han et al. [Han2007b} (Fig. \ref{fig_webcam_1}) proposed a system based on two web cameras to} track a free palm by comparing the visible spectrum image and the near-infrared image taken by the two cameras respectively.
 
-\hl{Goh et al. [Ong2008} (Fig. \ref{fig_webcam_2})} proposed a web camera based system, in which a simple case was built to protect the system against \hl{environmental light}. They used an effective free palm tracking method in this system. This system used a web camera with a $640 \times 480$ resolution to capture hand images. After the hand \hl{is} tracked in the images, the hand images were further down-sampled using two-dimensional (2D) wavelet transform. The ROIs extracted from hand images were normalized to $150 \times 150$.
+Goh et al. [Ong2008} (Fig. \ref{fig_webcam_2})} proposed a web camera based system, in which a simple case was built to protect the system against environmental light}. They used an effective free palm tracking method in this system. This system used a web camera with a $640 \times 480$ resolution to capture hand images. After the hand is} tracked in the images, the hand images were further down-sampled using two-dimensional (2D) wavelet transform. The ROIs extracted from hand images were normalized to $150 \times 150$.
 
-\hl{Zhu and Zhang [Zhu2010} (Fig.~\ref{fig_webcam_3})} proposed another \hl{WCBS} in 2010, in which \hl{light uniformity} was carefully examined. Under the evenly distributed light, the hand image quality was improved, and when the false acceptance rate (FAR) is 0.17\%, the genuine acceptance rate (GAR) is 99.43\%.
+Zhu and Zhang [Zhu2010} (Fig.~\ref{fig_webcam_3})} proposed another WCBS} in 2010, in which light uniformity} was carefully examined. Under the evenly distributed light, the hand image quality was improved, and when the false acceptance rate (FAR) is 0.17\%, the genuine acceptance rate (GAR) is 99.43\%.
 
-In \hl{WCBS}, the problem of the calibration of hand pose variations in three-dimensional (3D) space is challenging [Ong2010, Kanhangad2011a, Genovese2014}.
+In WCBS}, the problem of the calibration of hand pose variations in three-dimensional (3D) space is challenging [Ong2010, Kanhangad2011a, Genovese2014}.
 
 \subsection{Palmprint Systems with Pegged Flat Platen Surface}
 
@@ -65,11 +65,11 @@ In \hl{WCBS}, the problem of the calibration of hand pose variations in three-di
 \label{fig_areasys}
 \end{figure*}
 
-Palmprint systems with pegged flat platen surface [Kong2002, Zhang2003a, Kong2003, Wong2005, Kong2006, Hao2008, Wang2008, Kong2009, Li2009, Zhang2009, Zhang2010, Zhang2010b} have been popular in recent research. This design keeps the hand stable, avoids background interferences, captures quality images, and achieves a good recognition performance. The hand is held by the pegged flat platen surface in this kind of devices, as Fig.~\ref{fig_areasys_1} and Fig.~\ref{fig_areasys_2}  show. \hl{The user interface platen of this kind of palmprint systems covers most area. Only the parts between the fingers are left and then protected by the upper cover.} Currently the best results reported in research articles are mostly achieved in the database captured by Zhang's device, and the EERs are summarized to be distributed from 0.267\% to 0.012\% [Ito2006, Hao2008, Wang2008, Zuo2008b, Guo2009a, Laadjel2009a, Guo2009, Zhang2010, Zhang2010b, Li2012a}, which would be generally better than other systems' EERs, which \hl{range} from 0.26\% to over 4.73\% [Ong2003, Han2003, Kumar2003, Lin2005, Connie2005, Goh2006, Badrinath2007, Han2007b, Struc2008, Ong2010}.
+Palmprint systems with pegged flat platen surface [Kong2002, Zhang2003a, Kong2003, Wong2005, Kong2006, Hao2008, Wang2008, Kong2009, Li2009, Zhang2009, Zhang2010, Zhang2010b} have been popular in recent research. This design keeps the hand stable, avoids background interferences, captures quality images, and achieves a good recognition performance. The hand is held by the pegged flat platen surface in this kind of devices, as Fig.~\ref{fig_areasys_1} and Fig.~\ref{fig_areasys_2}  show. The user interface platen of this kind of palmprint systems covers most area. Only the parts between the fingers are left and then protected by the upper cover.} Currently the best results reported in research articles are mostly achieved in the database captured by Zhang's device, and the EERs are summarized to be distributed from 0.267\% to 0.012\% [Ito2006, Hao2008, Wang2008, Zuo2008b, Guo2009a, Laadjel2009a, Guo2009, Zhang2010, Zhang2010b, Li2012a}, which would be generally better than other systems' EERs, which range} from 0.26\% to over 4.73\% [Ong2003, Han2003, Kumar2003, Lin2005, Connie2005, Goh2006, Badrinath2007, Han2007b, Struc2008, Ong2010}.
 
 This kind of palmprint system uses an area scan camera, which is a camera with an area scan charge-coupled device (CCD) or complementary metal-oxide-semiconductor (CMOS) sensor. When an area scan camera captures images, all pixels of a frame are captured at the same time. Then{,} electrons of pixels are transferred line by line to the output channel and are amplified and sent to the output port pixel by pixel.
 
-\section{Line-Scan Palmprint System Design}\label{sec_sys}
+## Line-Scan Palmprint System Design {sec_sys}
 
 
 

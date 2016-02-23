@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 744.09448819 1052.3622047"
+   width="88mm"
+   height="117mm"
+   viewBox="0 0 311.81084 414.56669"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -68,15 +68,15 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
      inkscape:cx="427.14942"
-     inkscape:cy="603.10348"
+     inkscape:cy="199.04246"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="527"
-     inkscape:window-height="417"
-     inkscape:window-x="1647"
-     inkscape:window-y="349"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1680"
+     inkscape:window-height="987"
+     inkscape:window-x="1272"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -92,9 +92,10 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(0,-637.79537)">
     <g
-       transform="matrix(1.25,0,0,-1.25,217.5,744.6122)"
+       transform="matrix(1.25,0,0,-1.25,-0.69289969,1056.7494)"
        inkscape:label="ink_ext_XXXXXX"
        id="g3414">
       <g

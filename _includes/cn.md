@@ -16,11 +16,11 @@
 
 演示系统如下图所示。系统由 CIS 图像采集模组、运动反馈单元、FPGA-USB 嵌入式控制板组成。
 
-![线扫描掌纹采集设备模型](/img/line-scan-palmprint-device-model.png)
+![线扫描掌纹采集设备模型](/images/line-scan-palmprint-device-model.png)
 
 使用方式如图所示。用户把手掌放在滚轴上，滚动滚轴，扫描整个手掌。系统会自适应手掌滚动速度，自行调整采集速度，采集图像进行识别。
 
-![线扫描掌纹采集设备演示系统](/img/line-palmprint-demo.png)
+![线扫描掌纹采集设备演示系统](/images/line-palmprint-demo.png)
 
 
 图像传感器
@@ -53,20 +53,20 @@ In our prototype device, the photoelectric encoder is industry standard at 500 p
 
 FPGA 功能如下图所示。
 
-![FPGA 电路板框图](/img/fpga-board-block-diagram.png)
+![FPGA 电路板框图](/images/fpga-board-block-diagram.png)
 
 FPGA 电路板尺寸及布线如下图所示。
 
-![FPGA 电路板 PCB 布线图](/img/fpga-board-pcb-layout.png)
+![FPGA 电路板 PCB 布线图](/images/fpga-board-pcb-layout.png)
 
 
 
 应用
 ------------
 
-![多次反射式线扫描掌纹采集设备](/img/reflective-line-scan-palmprint-device.png)
+![多次反射式线扫描掌纹采集设备](/images/reflective-line-scan-palmprint-device.png)
 
-![更小的线扫描掌纹采集设备](/img/smaller-line-scan-palmprint-device.png)
+![更小的线扫描掌纹采集设备](/images/smaller-line-scan-palmprint-device.png)
 
 
 相关文献

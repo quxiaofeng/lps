@@ -24,9 +24,9 @@ The contributions of this paper are as follows.
 + The proposed palmprint acquisition system is evaluated on the merit of verification performance, with the help of conventional region of interest (ROI) extraction method and competitive coding scheme feature extraction method. The verification performance of the proposed system is comparable with current area-based ones, which is supported by the experiments on a database of 8000 images from 250 people.
 
 
-![](/images/fig_webcam_1.jpg)
-![](/images/fig_webcam_2.jpg)
-![](/images/fig_webcam_3.jpg)
+![](/images/fig_webcam_1.svg)
+![](/images/fig_webcam_2.svg)
+![](/images/fig_webcam_3.svg)
 
 Fig. 1 Web camera based palmprint capturing devices address the illumination and tracking problems. (a) The double camera design by Han et al. {Han2007b} captures both a visible spectrum image and a near-infrared image for tracking. (b) The environment-restrained design by Goh et al. {Ong2008} protects the optical path from environmental light. (c) The closed design by Zhu and Zhang {Zhu2010} does not only protect} the optical path, but also distributes the light evenly.
 

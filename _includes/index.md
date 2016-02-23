@@ -6,9 +6,9 @@ Demo
 
 
 
-![Line Scan Palmprint Device Model](/img/line-scan-palmprint-device-model.png)
+![Line Scan Palmprint Device Model](/images/line-scan-palmprint-device-model.png)
 
-![Line Scan Palmprint Device Demo](/img/line-palmprint-demo.png)
+![Line Scan Palmprint Device Demo](/images/line-palmprint-demo.png)
 
 
 
@@ -40,18 +40,18 @@ In our prototype device, the photoelectric encoder is industry standard at 500 p
 
 ### FPGA Board
 
-![FPGA Board Block Diagram](/img/fpga-board-block-diagram.png)
+![FPGA Board Block Diagram](/images/fpga-board-block-diagram.png)
 
-![FPGA Board PCB Layout](/img/fpga-board-pcb-layout.png)
+![FPGA Board PCB Layout](/images/fpga-board-pcb-layout.png)
 
 
 
 Future Applications
 ------------
 
-![Reflective Line Scan Palmprint Device](/img/reflective-line-scan-palmprint-device.png)
+![Reflective Line Scan Palmprint Device](/images/reflective-line-scan-palmprint-device.png)
 
-![Smaller Line Scan Palmprint Device](/img/smaller-line-scan-palmprint-device.png)
+![Smaller Line Scan Palmprint Device](/images/smaller-line-scan-palmprint-device.png)
 
 
 Publications

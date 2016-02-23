@@ -25,8 +25,11 @@ The contributions of this paper are as follows.
 
 
 ![](/images/fig_webcam_1.svg)
+\\( (a) \\)
 ![](/images/fig_webcam_2.svg)
+\\( (b) \\)
 ![](/images/fig_webcam_3.svg)
+\\( (c) \\)
 
 Fig. 1 Web camera based palmprint capturing devices address the illumination and tracking problems. (a) The double camera design by Han et al. {Han2007b} captures both a visible spectrum image and a near-infrared image for tracking. (b) The environment-restrained design by Goh et al. {Ong2008} protects the optical path from environmental light. (c) The closed design by Zhu and Zhang {Zhu2010} does not only protect} the optical path, but also distributes the light evenly.
 

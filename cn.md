@@ -3,7 +3,7 @@ layout: default
 permalink: /cn/
 ---
 
-# 线扫描掌纹识别系统 #
+# [线扫描掌纹识别系统](/cn/) #
 
 [English](/) \\( \\qquad \\) [**中文**](/cn/)
 

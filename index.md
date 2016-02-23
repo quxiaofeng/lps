@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Line-scan Palmprint Recognition System #
+# [Line-scan Palmprint Recognition System](/) #
 
 [**English**](/) \\( \\qquad \\) [中文](/cn/)
 

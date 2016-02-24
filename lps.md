@@ -108,13 +108,13 @@ This synchronization problem was solved in industrial machine vision systems. In
 \begin{figure*}[!ht]
 \centering
 \includegraphics[width =4.5 in]{4}
-\caption{{Diagram} of the system framework.}
+\caption{Diagram of the system framework.}
 \label{fig_framework}
 \end{figure*}
 
 \begin{table*}[!ht]
 \renewcommand{\arraystretch}{1.3}
-\caption{{Key Factors Related To Speed, Image Quality, and User Experience}}
+\caption{Key Factors Related To Speed, Image Quality, and User Experience}
 \label{table_factors}
 \centering
 \begin{tabular}{cl}
@@ -270,7 +270,7 @@ Fig.~\ref{fig_expflow} {shows} the flowchart of the experiment. The experiment w
 \begin{figure}[!ht]
 \centering
 \includegraphics[width =3.4 in]{9}
-\caption{{LPS} verification experiment flowchart.}
+\caption{LPS verification experiment flowchart.}
 \label{fig_expflow}
 \end{figure}
 

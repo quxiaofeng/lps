@@ -7,6 +7,8 @@ permalink: /lps/
 
 [Return to Home](/)
 
+![](http://images.freeimages.com/images/previews/7d5/under-construction-icon-1242121.jpg)
+
 ## Abstract ##
 
 Biometric recognition systems have been widely used globally. However, one effective and highly accurate biometric authentication method, palmprint recognition, has not been popularly applied as it should have been, which could be due to the lack of small, flexible and user-friendly acquisition systems. To expand the use of palmprint biometrics, we propose a novel palmprint acquisition system based on the line-scan image sensor. The proposed system consists of a customized and highly integrated line-scan sensor, a self-adaptive synchronizing unit, and a field-programmable gate array controller with a cross-platform interface. The volume of the proposed system is over 94% smaller than the volume of existing palmprint systems, without compromising its verification performance. The verification performance of the proposed system was tested on a database of 8000 samples collected from 250 people, and the equal error rate is 0.048%, which is comparable to the best area camera based systems.

@@ -3,7 +3,7 @@ layout: default
 permalink: /lps/
 ---
 
-# A Novel Line-Scan Palmprint Acquisition System #
+# [A Novel Line-Scan Palmprint Acquisition System](/lps/) #
 
 [Return to Home](/)
 

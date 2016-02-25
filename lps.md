@@ -37,18 +37,18 @@ The contributions of this paper are as follows.
 
 Fig. 1 Web camera based palmprint capturing devices address the illumination and tracking problems. (a) The double camera design by Han et al. ([Han et al., 2007b][Han2007b] captures both a visible spectrum image and a near-infrared image for tracking. (b) The environment-restrained design by Goh et al. ([Goh et at., 2008][Ong2008]) protects the optical path from environmental light. (c) The closed design by Zhu and Zhang ([Zhu amd Zhang, 2010][Zhu2010]) does not only protect} the optical path, but also distributes the light evenly.
 
-This paper is organized as follows: Section {sec_review} reviews existing acquisition systems. In Section {sec_sys}, the details of the structure and each component of our line-scan palmprint acquisition system (LPS) are presented. In Section {sec_exp}, the system performance is evaluated by verification experiments. Comparisons between the proposed system and area-based systems are also presented here. Section  {sec_concl} concludes this paper.
+This paper is organized as follows: Section [2](#exsiting-systems) reviews existing acquisition systems. In Section [3](#line-scan-palmprint-system-design), the details of the structure and each component of our line-scan palmprint acquisition system (LPS) are presented. In Section [4](#experiment-and-comparison), the system performance is evaluated by verification experiments. Comparisons between the proposed system and area-based systems are also presented here. Section [5](#conclusion) concludes this paper.
 
 
-## Existing Systems {sec_review}
+## 2 Existing Systems
 
 There are three different kinds of palmprint acquisition systems capturing palmprint images in different conditions:} Flatbed scanners capture pressed images [Ong2003, Han2003, Connie2005, Lin2005, Goh2006, Badrinath2007, Zheng2007a, Struc2008}. Systems with a digital camera or a web camera that} capture unconstrained images [Shu1998, Kumar2003, Han2007b, Ong2008, Chaudhary2009, Zhu2010, Ong2010,Aykut2013, Genovese2014}. Systems with a pegged flat platen surface that} capture stable images [Kong2002, Zhang2003a, Kong2003, Wong2005, Kong2006, Hao2008, Wang2008, Kong2009, Li2009, Zhang2009, Zhang2010, Zhang2010b}.
 
-### subsection{Flatbed Scanner}
+### 2.1 Flatbed Scanner
 
 A flatbed scanner captures contact palmprint images in high resolution. It has been utilized as a palmprint scanner by many researchers [Ong2003, Han2003, Connie2005, Lin2005, Goh2006, Badrinath2007, Zheng2007a, Struc2008}. The scanning time of a flatbed scanner is typically \SI{10}{s} -- \SI{20}{s} for a \SI{300}{dpi} A4 size scan.
 
-### subsection{Web Camera Based Systems}
+### 2.2 Web Camera Based Systems
 
 Web cameras are fast, flexible, and very compact. They are suitable for real-time video surveillance applications. WCBS have been} examined by a number} of researchers, mainly Han et al. [Han2007b}, Goh et al. [Ong2008}, and Zhu and Zhang [Zhu2010}.} They made great contributions in real-time palmprint tracking and in optimizing illumination.}
 
@@ -60,7 +60,7 @@ Zhu and Zhang [Zhu2010} (Fig.~\ref{fig_webcam_3})} proposed another WCBS} in 201
 
 In WCBS}, the problem of the calibration of hand pose variations in three-dimensional (3D) space is challenging [Ong2010, Kanhangad2011a, Genovese2014}.
 
-\subsection{Palmprint Systems with Pegged Flat Platen Surface}
+### 2.3 Palmprint Systems with Pegged Flat Platen Surface
 
 \begin{figure*}[!ht]
 \centering
@@ -76,7 +76,7 @@ Palmprint systems with pegged flat platen surface [Kong2002, Zhang2003a, Kong200
 
 This kind of palmprint system uses an area scan camera, which is a camera with an area scan charge-coupled device (CCD) or complementary metal-oxide-semiconductor (CMOS) sensor. When an area scan camera captures images, all pixels of a frame are captured at the same time. Then{,} electrons of pixels are transferred line by line to the output channel and are amplified and sent to the output port pixel by pixel.
 
-## Line-Scan Palmprint System Design {sec_sys}
+## 3 Line-Scan Palmprint System Design
 
 
 {To take advantage} of cutting-edge line-scan image sensors, {we propose an online palmprint acquisition system (LPS) based on the line-scan image sensor.} A synchronizing unit, which is composed of a roller module, an encoder, and an FPGA, is designed for our system. It synchronizes the motion of hands with the capturing of images of the line-scan image sensor. With this unit, the proposed system captures the palmprint adaptively to the motion of {the} hands in real-time. Meanwhile, the resolution and quality of images are similar as {with} current area systems, which enables a fair comparison of recognition performance. A control board is implemented based on an FPGA. The USB interface is utilized. With this universal interface, the proposed capturing device works with either a desktop computer or an embedded platform, which is a major advantage for next generation real-time online applications. The rest of this section starts with the line-scan imaging scheme, followed by the system framework. After the introduction of {the} system framework, the three hardware parts: the line-scan image sensor, the synchronizing unit, and the controller board are {discussed}. The working system is presented at the end of this section.
@@ -253,7 +253,7 @@ Cypress USB CY7C68013A is used as the USB interface engine. It works in Slave FI
 
 Fig.~\ref{fig_demo} shows the proposed acquisition system, which is composed of the line-scan sensor, the synchronizing unit, and the controller board. The proposed system could capture {LPS} images with either a desktop computer or an embedded ARM platform. The only two interfaces connected to the device are a 12-V power supply and a USB mini B plug.
 
-\section{Experiment and Comparison}\label{sec_exp}
+## 4 Experiment and Comparison
 
 When evaluating an image acquisition system for a biometric system, the most important {criterion} is the recognition performance of the overall system. The requirements {for} acquisition systems are quite different, when the systems are being used with different feature extraction and matching methods. In this section, to compare the recognition performance of the proposed {LPS} and the area palmprint systems, we present a verification experiment on a large database collected by the proposed system. In this verification experiment, the proposed palmprint acquisition system is combined with a set of ROI extraction, feature extraction and matching methods to build a complete palmprint verification system. This set of ROI extraction, {feature extraction,} and matching methods is identical to three area palmprint systems\cite{Zhang2003a, Wong2005, Zhang2010}. In addition, the scale of the database (8000 images from 250 people) is comparable with the three area palmprint databases.
 
@@ -396,7 +396,7 @@ The proposed {LPS} works with both {a} desktop application and {a} mobile applic
 
 The applications of the proposed acquisition system are not limited to palmprint acquisition. The proposed acquisition system can be also applied to {fingerprint recognition, finger inner knuckle print recognition, finger inner print recognition, finger vein recognition, hand geometry recognition, and palm vein recognition. Any combination} of formerly mentioned hand biometrics and palmprint recognition can also use the proposed {LPS}. The proposed {LPS} can be applied with minor modifications in these hand biometrics. The performance of the modified system could be no worse than area based systems. Meanwhile, the volume of the system could be smaller, and {mobile application} could be realized. 
 
-\section{Conclusion}\label{sec_concl}
+## 5 Conclusion
 
 In this paper, a novel {line-scan sensor-based} palmprint acquisition system is proposed to expand the application of {palmprint biometrics}. This {LPS} is featured {with} a customized and highly integrated line-scan sensor, a self-adaptive {motion-synchronizing} unit, and a cross-platform {control} board. The volume of the proposed system is less than 6\% of the volume of current palmprint systems, without compromising {verification performance.} This system is suitable for online palmprint biometric applications.
 

@@ -77,7 +77,7 @@ Publications
 + China Patent [CN102521584 (A)](http://www.google.com/patents/CN102521584A?cl=en) / [CN102521584 (B)](http://www.google.com/patents/CN102521584B?cl=en)
 
 
-[TSMC-LPS]: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7390297&isnumber=6376248
+[TSMC-LPS]: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7390297
 [csxfqu]: http://www.quxiaofeng.me/about
 [csdzhang]: http://www4.comp.polyu.edu.hk/~csdzhang/
 [csgmlu]: http://www.hitsz.edu.cn/body/shizi/detailen.php?strID=396

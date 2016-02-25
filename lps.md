@@ -9,7 +9,7 @@ permalink: /lps/
 
 ![](http://images.freeimages.com/images/previews/7d5/under-construction-icon-1242121.jpg)
 
-[Qu, X.; Zhang, D.; Lu, G., "A Novel Line-Scan Palmprint Acquisition System," *in Systems, Man, and Cybernetics: Systems, IEEE Transactions on , vol.PP, no.99, pp.1-11*](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7390297)
+[Qu, Xiaofeng; Zhang, David; Lu, Guangming, "A Novel Line-Scan Palmprint Acquisition System," *in Systems, Man, and Cybernetics: Systems, IEEE Transactions on , vol.PP, no.99, pp.1-11*](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7390297)
 
 ## Abstract ##
 

@@ -56,7 +56,6 @@ Web cameras are fast, flexible, and very compact. They are suitable for real-tim
 ![](/images/fig_webcam_3.svg)
 </a>
 \\[ (c) \\]
-
 *Fig. 1 Web camera based palmprint capturing devices address the illumination and tracking problems. (a) The double camera design by [Han et al.][Han2007b] captures both a visible spectrum image and a near-infrared image for tracking. (b) The environment-restrained design by [Goh et al.][Ong2008] protects the optical path from environmental light. (c) The closed design by [Zhu and Zhang][Zhu2010] does not only protect the optical path, but also distributes the light evenly.*
 
 [Han et al.][Han2007b] (Fig. [1a](#fig_webcam_1)) proposed a system based on two web cameras to track a free palm by comparing the visible spectrum image and the near-infrared image taken by the two cameras respectively.
@@ -90,19 +89,20 @@ To take advantage of cutting-edge line-scan image sensors, we propose an online 
 
 ### Line-Scan Imaging Scheme ###
 
-\beginfigure*[!ht]
-\centering
-\subfloat[]
-  \includegraphics[width =2.6 in]3a\labelfig_imagingscheme_1~
-\subfloat[]
-  \includegraphics[width =2.6 in]3b\labelfig_imagingscheme_2
-\captionA comparison of optical path space between area scan image sensor based palmprint acquisition systems and line-scan image sensor based systems. (a) Area image sensor based palmprint acquisition system imaging scheme. (b) Line-scan image sensor based palmprint acquisition system imaging scheme.
-\labelfig_imagingscheme
-\endfigure*
+
+<a name="fig_imagingscheme_1">
+![](/images/fig_imagingscheme_1.svg)
+</a>
+\\[ (a) \\]
+<a name="fig_imagingscheme_2">
+![](/images/fig_imagingscheme_2.svg)
+</a>
+\\[ (b) \\]
+*Fig. 3 A comparison of optical path space between area scan image sensor based palmprint acquisition systems and line-scan image sensor based systems. (a) Area image sensor based palmprint acquisition system imaging scheme. (b) Line-scan image sensor based palmprint acquisition system imaging scheme.*
 
 In a line-scan sensor, there is only one line of pixels. Pixels in a line-scan sensor can be extended to enlarge the imaging area. With a larger imaging area, the dynamic range could be improved. This is different from area sensors. In area sensors, the size of pixels is a trade-off between resolution and dynamic range given a certain kind of pixels. In area cameras, a larger pixel could bring a higher dynamic range, but with lower resolution. This problem does not exist in line-scan sensors, as they could capture high-resolution images without compromising dynamic range.
 
-In an imaging system, a line-scan sensor requires a much smaller space for the optical path than that an area image sensor requires, which is the most critical limitation of current palmprint capturing devices. As Fig.fig_imagingscheme_2 shows, a line-scan sensor captures a line image. In a line-scan sensor imaging system, the field of view is only one pixel long in the vertical direction. Comparing to the angle of view in the horizontal direction, it is merely one of hundreds or one of thousands in the vertical direction. Therefore, in a line-scan imaging system, the optical path, which is required by the traveling of rays from the object to the sensor, is a thin plane in three-dimensional space. On the contrary, the optical path in a traditional area image sensor is a two-cone-shaped space, as Fig.fig_imagingscheme_1 shows. When a line-scan sensor captures a wider object, the sensor can be used to swipe the object without increasing the optical path. However, for an area scan camera, the optical path has to be increased. In the area imaging system, optical path is critical to the field of view, which is determined by the dimensions of objects. In a palmprint acquisition system, the object is the palm. The field of view has to be large enough to cover the palm. The field of view can be extended by increasing the distance between lens and objects, or by increasing the angle of view. However, this will introduce the following problems: First, a longer distance between lens and objects brings a longer optical path, which occupies more space. Second, while the angle of view is increasing, the off-axis interference light comes into the optical system, and this could result to aberrations. The image quality could be sacrificed, thus, neither could provide a better solution. Because of the reasons mentioned above, the space taken by the line-scan sensor optical path is much smaller than the space taken by the area image sensor, which may not be further reduced without changes in the imaging structure.
+In an imaging system, a line-scan sensor requires a much smaller space for the optical path than that an area image sensor requires, which is the most critical limitation of current palmprint capturing devices. As Fig. [3b](#fig_imagingscheme_2) shows, a line-scan sensor captures a line image. In a line-scan sensor imaging system, the field of view is only one pixel long in the vertical direction. Comparing to the angle of view in the horizontal direction, it is merely one of hundreds or one of thousands in the vertical direction. Therefore, in a line-scan imaging system, the optical path, which is required by the traveling of rays from the object to the sensor, is a thin plane in three-dimensional space. On the contrary, the optical path in a traditional area image sensor is a two-cone-shaped space, as Fig. [3a](#fig_imagingscheme_1) shows. When a line-scan sensor captures a wider object, the sensor can be used to swipe the object without increasing the optical path. However, for an area scan camera, the optical path has to be increased. In the area imaging system, optical path is critical to the field of view, which is determined by the dimensions of objects. In a palmprint acquisition system, the object is the palm. The field of view has to be large enough to cover the palm. The field of view can be extended by increasing the distance between lens and objects, or by increasing the angle of view. However, this will introduce the following problems: First, a longer distance between lens and objects brings a longer optical path, which occupies more space. Second, while the angle of view is increasing, the off-axis interference light comes into the optical system, and this could result to aberrations. The image quality could be sacrificed, thus, neither could provide a better solution. Because of the reasons mentioned above, the space taken by the line-scan sensor optical path is much smaller than the space taken by the area image sensor, which may not be further reduced without changes in the imaging structure.
 
 A line-scan camera device in fingerprint recognition was invented by [Mil'shtein et al.][Fingerprint2008], which is different from the palmprint case. In this fingerprint line-scan device, the camera is rotating around the finger when capturing. The camera captures one vertical line of fingerprint image at a time until 180° of the whole finger surface is scanned. This design captures a cylindrical fingerprint image. However, it is not suitable to be applied in palmprint. The skin surface of the palm is an uneven plane, and the palmprint is not a cylinder. This structure could not be used in line-scan palmprint systems.
 
@@ -112,18 +112,17 @@ When building a system based on the line-scan sensor, there is a challenge of mo
 
 This synchronization problem was solved in industrial machine vision systems. In industrial machine vision systems, line-scan image sensors and cameras have been used for decades. A typical structure of an industrial line-scan system consists of a line-scan camera, a conveyor belt and a motion controller \([Kim2001][Kim2001], [Baykal2004][Baykal2004]). Objects are moving smoothly on the conveyor belt when the line-scan camera is taking line images. A motion controller monitors and adjusts the moving speed of the conveyor belt, and triggers the line-scan camera to capture images synchronously.
 
-\beginfigure*[!ht]
-\centering
-\includegraphics[width =4.5 in]4
-\captionDiagram of the system framework.
-\labelfig_framework
-\endfigure*
+
+<a name="fig_framework">
+![](/images/fig_framework.svg)
+</a>
+*Fig. 4 Diagram of the system framework.*
 
 However, the problem is different when building an LPS, and it is still a challenge. First, in a palmprint system, the imaging object is a part of human body. The palm cannot be moved as a physical subject. The synchronizing process should be driven by the palm of people. Second, the motion of the palm cannot maintain a constant speed without any guide. Typically, the human palm moves in various speeds and directions unless instructed or guided. Third, when building a palmprint system, the user interface should be user-friendly. The motion of the palm should not be limited to a rigid way. In summary, motion synchronizing should be responsive, adaptive, and user-friendly.
 
 ### System Framework ###
 
-Nowadays, a biometric acquisition system is expected to have both desktop and embedded versions. Biometric applications using these acquisition systems deployed in handheld or mobile platforms are very popular ([Han2007c][Han2007c], [Jia2012][Jia2012], [Shen2012][Shen2012]). A framework, in which both the desktop computation platform and the embedded platform are compatible with the same image-capturing device, is proposed for our line-scan sensor based system. The framework is illustrated in Fig.fig_framework. This framework uses an embedded controller, which regulates all the device parts and communicates with the computation platform through a universal interface. With this structure, the proposed palmprint capturing device could be used in both desktop applications and embedded applications with respective drivers. In palmprint acquisition systems, the image-capturing speed, the image quality, and the user interface design are the most important parts to achieve the goal of the proposed system.
+Nowadays, a biometric acquisition system is expected to have both desktop and embedded versions. Biometric applications using these acquisition systems deployed in handheld or mobile platforms are very popular ([Han2007c][Han2007c], [Jia2012][Jia2012], [Shen2012][Shen2012]). A framework, in which both the desktop computation platform and the embedded platform are compatible with the same image-capturing device, is proposed for our line-scan sensor based system. The framework is illustrated in Fig. [4](#fig_framework). This framework uses an embedded controller, which regulates all the device parts and communicates with the computation platform through a universal interface. With this structure, the proposed palmprint capturing device could be used in both desktop applications and embedded applications with respective drivers. In palmprint acquisition systems, the image-capturing speed, the image quality, and the user interface design are the most important parts to achieve the goal of the proposed system.
 
 To achieve these objectives, all parts of the system should be considered, as shown in Tabletable_factors.
 
@@ -149,7 +148,7 @@ As shown in Tabletable_chars, there are four types of LEDs deployed in our CIS m
 
 ### Synchronizing Unit
 
-A synchronizing unit is designed to synchronize the motion of the hand with the CIS module capturing. The synchronizing unit consists of a pair of rollers, a gear set, and a photoelectric encoder, as is shown in Fig.fig_syncunit. First, when the hand rolls through the rollers, the synchronizing unit sends synchronizing pulse signals to the CIS sensor using the encoder derived by the gear set. Second, the rollers hold the hand flattened and stretched. Otherwise, the palm could touch the surface of the CIS sensor, it would squeeze and the lines and texture could be distorted. Meanwhile, the rollers keep the hand skin 2mm -- 4mm above the surface. The CIS module only captures objects in a distance of 1mm -- 7mm. The depth of view is limited by the micro lenses. It requires pressure to push the roller. Thus, the hand is pressing on the rollers with a moderate force. The force moves the roller, stretches the skin of the palmprint, and keeps it flattened. Third, the distance between the two rollers is minimized to avoid a large displacement of the hand skin. Also, the two rollers are made of the same size to maintain a stable motion. They are synchronized by the gear set rolling at the same angular velocity. The hand motion on these rollers is both stable and synchronized.
+A synchronizing unit is designed to synchronize the motion of the hand with the CIS module capturing. The synchronizing unit consists of a pair of rollers, a gear set, and a photoelectric encoder, as is shown in Fig.[5](#fig_syncunit). First, when the hand rolls through the rollers, the synchronizing unit sends synchronizing pulse signals to the CIS sensor using the encoder derived by the gear set. Second, the rollers hold the hand flattened and stretched. Otherwise, the palm could touch the surface of the CIS sensor, it would squeeze and the lines and texture could be distorted. Meanwhile, the rollers keep the hand skin 2mm -- 4mm above the surface. The CIS module only captures objects in a distance of 1mm -- 7mm. The depth of view is limited by the micro lenses. It requires pressure to push the roller. Thus, the hand is pressing on the rollers with a moderate force. The force moves the roller, stretches the skin of the palmprint, and keeps it flattened. Third, the distance between the two rollers is minimized to avoid a large displacement of the hand skin. Also, the two rollers are made of the same size to maintain a stable motion. They are synchronized by the gear set rolling at the same angular velocity. The hand motion on these rollers is both stable and synchronized.
 
 \beginfigure[!ht]
 \centering
@@ -186,7 +185,7 @@ In our prototype device, the photoelectric encoder is industry standard at 500 p
 
 ### Controller Board
 
-An FPGA board was built as the controller. It is composed of a CIS driver, an A/D controller, a data buffer, and a USB interface. The block diagram of the controller is shown in Fig.fig_block_controller.
+An FPGA board was built as the controller. It is composed of a CIS driver, an A/D controller, a data buffer, and a USB interface. The block diagram of the controller is shown in Fig. [6](#fig_block_controller).
 
 \beginfigure*[!ht]
 \centering
@@ -209,11 +208,11 @@ The FPGA is the core of this board, and it controls the CIS driver, the A/D cont
 
 Cypress USB CY7C68013A is used as the USB interface engine. It works in Slave FIFO mode for the highest transferring speed and with minimum latency. Continuous transmission speed is over 18MiB/s in dummy data test. Both the PC-based and embedded platform-based drivers are implemented.
 
-The printed circuit board layout is shown in Fig.fig_layout_controller. The width of this PCB is the same as the width of the synchronizing unit. In this way, the width is minimized to the width of the synchronizing unit. Both the CIS module and the photoelectric encoder are powered by this board. There is only one 4-pin 12V to 5V power module being used here as the power supply for the entire device.
+The printed circuit board layout is shown in Fig. [6](#fig_layout_controller). The width of this PCB is the same as the width of the synchronizing unit. In this way, the width is minimized to the width of the synchronizing unit. Both the CIS module and the photoelectric encoder are powered by this board. There is only one 4-pin 12V to 5V power module being used here as the power supply for the entire device.
 
 ### The Acquisition System
 
-Fig.fig_demo shows the proposed acquisition system, which is composed of the line-scan sensor, the synchronizing unit, and the controller board. The proposed system could capture LPS images with either a desktop computer or an embedded ARM platform. The only two interfaces connected to the device are a 12-V power supply and a USB mini B plug.
+Fig. [8](#fig_demo) shows the proposed acquisition system, which is composed of the line-scan sensor, the synchronizing unit, and the controller board. The proposed system could capture LPS images with either a desktop computer or an embedded ARM platform. The only two interfaces connected to the device are a 12-V power supply and a USB mini B plug.
 
 ## 4 Experiment and Comparison
 
@@ -221,13 +220,13 @@ When evaluating an image acquisition system for a biometric system, the most imp
 
 ### Line-Scan Palmprint Database
 
-The line-scan palmprint database is built including 8000 LPS samples from 250 people. The subjects are volunteers from universities and neighboring communities. In the database, 189 people are male, and the age distribution is from 20 to 63 years old. The samples of both hands were collected from two separate sessions. Eight samples from each hand were collected in each session. The interval between the two sessions was 24.5 days on average. When collecting samples, the subject was asked to roll the rollers of the LPS device. A subject was trained for less than 30 seconds before the sampling. In this short-time training, a helper demonstrated the sampling process for two to three times, and then each subject tried for three to eight times on LPS, before the sampling in each session. Our database contains 8000 samples from 500 different palms. The resolution of the samples is $720\times720$ (100dpi). The images captured by the proposed device are shown in Fig.fig_raw.
+The line-scan palmprint database is built including 8000 LPS samples from 250 people. The subjects are volunteers from universities and neighboring communities. In the database, 189 people are male, and the age distribution is from 20 to 63 years old. The samples of both hands were collected from two separate sessions. Eight samples from each hand were collected in each session. The interval between the two sessions was 24.5 days on average. When collecting samples, the subject was asked to roll the rollers of the LPS device. A subject was trained for less than 30 seconds before the sampling. In this short-time training, a helper demonstrated the sampling process for two to three times, and then each subject tried for three to eight times on LPS, before the sampling in each session. Our database contains 8000 samples from 500 different palms. The resolution of the samples is $720\times720$ (100dpi). The images captured by the proposed device are shown in Fig. [9](#fig_raw).
 
 ### Verification Experiment
 
 To compare with current real-time online area based palmprint systemsZhang2003a, Wong2005, Zhang2010, we needed the recognition performance of a verification experiment of the proposed system working in the same environment.
 
-Fig.fig_expflow shows the flowchart of the experiment. The experiment was designed following the area palmprint systems' convention. This experiment consisted of four parts: image capturing, ROI extraction, feature extraction, and matching. In image capturing, the proposed LPS has been used.
+Fig. [10](#fig_expflow) shows the flowchart of the experiment. The experiment was designed following the area palmprint systems' convention. This experiment consisted of four parts: image capturing, ROI extraction, feature extraction, and matching. In image capturing, the proposed LPS has been used.
 
 \beginfigure[!ht]
 \centering
@@ -265,7 +264,7 @@ Fig.fig_expflow shows the flowchart of the experiment. The experiment was design
 \labelfig_rois
 \endfigure*
 
-The ROI extraction method is based on the work of Guo et al.Guo2009coc. The extraction of ROI has five steps: preprocessing, binarization, cont our extraction, finding tangent points and computing ROI location, as is shown in Fig.fig_rawpalm to Fig.fig_roiexample. This ROI extraction method has been used also inZhang2003a, Wong2005, Zhang2010.
+The ROI extraction method is based on the work of Guo et al.Guo2009coc. The extraction of ROI has five steps: preprocessing, binarization, cont our extraction, finding tangent points and computing ROI location, as is shown in Fig. [10a](#fig_rawpalm) to Fig. [10f](#fig_roiexample). This ROI extraction method has been used also inZhang2003a, Wong2005, Zhang2010.
 
 In feature extraction, the competitive coding scheme is implemented to extract features and to encode the features of palmprint ROIs. The competitive coding scheme (CompCode)Kong2004compcode is a very effective 2D Gabor filter-based palmprint feature extraction method. It extracts the orientation information of palm lines. This method is widely used in area-based palmprint systems. This method is the most promising method in real-time online palmprint feature extraction study.
 

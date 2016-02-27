@@ -37,7 +37,7 @@ The contributions of this paper are as follows.
 ![](/images/fig_webcam_3.svg)
 \\[ (c) \\]
 
-Fig. 1 Web camera based palmprint capturing devices address the illumination and tracking problems. (a) The double camera design by Han et al. ([Han et al., 2007b][Han2007b] captures both a visible spectrum image and a near-infrared image for tracking. (b) The environment-restrained design by Goh et al. ([Goh et at., 2008][Ong2008]) protects the optical path from environmental light. (c) The closed design by Zhu and Zhang ([Zhu amd Zhang, 2010][Zhu2010]) does not only protect} the optical path, but also distributes the light evenly.
+Fig. 1 Web camera based palmprint capturing devices address the illumination and tracking problems. (a) The double camera design by Han et al. ([Han et al., 2007b][Han2007b]) captures both a visible spectrum image and a near-infrared image for tracking. (b) The environment-restrained design by Goh et al. ([Goh et at., 2008][Ong2008]) protects the optical path from environmental light. (c) The closed design by Zhu and Zhang ([Zhu amd Zhang, 2010][Zhu2010]) does not only protect} the optical path, but also distributes the light evenly.
 
 This paper is organized as follows: Section [2](#exisiting-systems) reviews existing acquisition systems. In Section [3](#line-scan-palmprint-system-design), the details of the structure and each component of our line-scan palmprint acquisition system (LPS) are presented. In Section [4](#experiment-and-comparison), the system performance is evaluated by verification experiments. Comparisons between the proposed system and area-based systems are also presented here. Section [5](#conclusion) concludes this paper.
 

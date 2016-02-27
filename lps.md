@@ -64,7 +64,7 @@ Web cameras are fast, flexible, and very compact. They are suitable for real-tim
 
 [Zhu and Zhang][Zhu2010] (Fig. [1c](#fig_webcam_3)) proposed another WCBS in 2010, in which light uniformity was carefully examined. Under the evenly distributed light, the hand image quality was improved, and when the false acceptance rate (FAR) is 0.17%, the genuine acceptance rate (GAR) is 99.43%.
 
-In WCBS, the problem of the calibration of hand pose variations in three-dimensional (3D) space is challenging [Ong2010, Kanhangad2011a, Genovese2014.
+In WCBS, the problem of the calibration of hand pose variations in three-dimensional (3D) space is challenging ([Ong2010][Ong2010], [Kanhangad2011a][Kanhangad2011a], [Genovese2014][Genovese2014]).
 
 ### 2.3 Palmprint Systems with Pegged Flat Platen Surface
 
@@ -308,6 +308,7 @@ Future research of LPS could go in three directions. First, with further study o
 [Hao2008]: ./
 [Ito2006]: ./
 [Jain2009]: http://biometrics.cse.msu.edu/Publications/Palmprints/JainFeng_LatentPalm_PAMI2008.pdf
+[Kanhangad2011a]: ./
 [Kong2002]: ./
 [Kong2003]: ./
 [Kong2006]: ./

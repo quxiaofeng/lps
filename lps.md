@@ -301,9 +301,12 @@ Future research of LPS could go in three directions. First, with further study o
 [Dai2011]: http://research.microsoft.com/en-us/um/people/jifdai/publications/PAMI_MultiFeature_2011.pdf
 [Genovese2014]: ./
 [Goh2006]: ./
+[Guo2009]: ./
+[Guo2009a]: ./
 [Han2003]: ./
 [Han2007b]: ./
 [Hao2008]: ./
+[Ito2006]: ./
 [Jain2009]: http://biometrics.cse.msu.edu/Publications/Palmprints/JainFeng_LatentPalm_PAMI2008.pdf
 [Kong2002]: ./
 [Kong2003]: ./
@@ -311,7 +314,9 @@ Future research of LPS could go in three directions. First, with further study o
 [Kong2009]: ./
 [Kumar2003]: ./
 [Laadjel2009]: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5414617
+[Laadjel2009a]: ./
 [Li2009]: ./
+[Li2012a]: ./
 [Lin2005]: ./
 [Ong2003]: ./
 [Ong2008]: ./
@@ -321,9 +326,9 @@ Future research of LPS could go in three directions. First, with further study o
 [Wang2008]: ./
 [Wong2005]: ./
 [Zhang2003a]: ./
-[Zhang2003a]: ./
 [Zhang2009]: ./
 [Zhang2010]: ./
 [Zhang2010b]: ./
 [Zheng2007a]: ./
 [Zhu2010]: ./
+[Zuo2008b]: ./

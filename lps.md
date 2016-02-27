@@ -60,7 +60,7 @@ Web cameras are fast, flexible, and very compact. They are suitable for real-tim
 
 [Han et al.][Han2007b] (Fig. [1a](#fig_webcam_1)) proposed a system based on two web cameras to track a free palm by comparing the visible spectrum image and the near-infrared image taken by the two cameras respectively.
 
-[Goh et al.][Ong2008] (Fig. [1b](#fig_webcam_2)) proposed a web camera based system, in which a simple case was built to protect the system against environmental light. They used an effective free palm tracking method in this system. This system used a web camera with a $640 \times 480$ resolution to capture hand images. After the hand is tracked in the images, the hand images were further down-sampled using two-dimensional (2D) wavelet transform. The ROIs extracted from hand images were normalized to $150 \times 150$.
+[Goh et al.][Ong2008] (Fig. [1b](#fig_webcam_2)) proposed a web camera based system, in which a simple case was built to protect the system against environmental light. They used an effective free palm tracking method in this system. This system used a web camera with a \\(640 \times 480\\) resolution to capture hand images. After the hand is tracked in the images, the hand images were further down-sampled using two-dimensional (2D) wavelet transform. The ROIs extracted from hand images were normalized to \\(150 \times 150\\).
 
 [Zhu and Zhang][Zhu2010] (Fig. [1c](#fig_webcam_3)) proposed another WCBS in 2010, in which light uniformity was carefully examined. Under the evenly distributed light, the hand image quality was improved, and when the false acceptance rate (FAR) is 0.17%, the genuine acceptance rate (GAR) is 99.43%.
 
@@ -171,9 +171,11 @@ The material of the rollers is copper. Three kinds of metal were tested in makin
 
 Then the motion on the rollers is digitized by the photoelectric encoder to send out synchronizing pulses through the gear set. The image resolution on the motion direction is defined by the rollers and the gear ratio.
 
-Given a gear ratio, $R_g$, and the diameter of rollers, $D_R$, when the hand moves $M_R=\pi D_R$, the roller rotates one round. Then the axis of the encoder rotates $R_g$ rounds. If the encoder sends out $P_e$ pulses per round, the encoder sends out $P=\fracP_eR_g$ pulses for $R_g$ rounds. It means that when the hand moves $M_R$ mm, the encoder sends out $P$ pulses. For a filter ratio $R_f$, the sensor only captures $\fracPR_f$ lines, then the resolution $S_M$ (in metric) can be computed by dividing the number of captured lines $\fracPR_f$ by the distance $M_R$, as follows:
+Given a gear ratio, \\( R_g \\), and the diameter of rollers, \\( D_R \\), when the hand moves \\( M_R = \\pi D_R\\), the roller rotates one round. Then the axis of the encoder rotates \\( R_g \\) rounds. If the encoder sends out \\( P_e \\) pulses per round, the encoder sends out \\(P = \frac{P_e}{R_g} \\} pulses for \\( R_g \\) rounds. It means that when the hand moves \\( M_R \\) mm, the encoder sends out \\( P \\) pulses. For a filter ratio \\( R_f \\), the sensor only captures \\( \frac{P}{R_f} \\) lines, then the resolution \\( S_M \\) (in metric) can be computed by dividing the number of captured lines \\( \frac{P}{R_f} \\) by the distance \\( M_R \\), as follows:
 
-$$S_M=\frac\fracPR_fM_R =\fracPM_R\cdotR_f$$
+\\[
+S_M = \frac{\frac{P}{R_f}}{M_R} =\frac{P}{M_R \\cdot R_f}
+\\]
 
 Here, the unit of the $S_M$ is lines per mm. One inch is 25.4mm. Thus, the resolution $S_L$ (in dpi) can be defined as equation (eqn_pulses).
 
@@ -220,7 +222,7 @@ When evaluating an image acquisition system for a biometric system, the most imp
 
 ### Line-Scan Palmprint Database
 
-The line-scan palmprint database is built including 8000 LPS samples from 250 people. The subjects are volunteers from universities and neighboring communities. In the database, 189 people are male, and the age distribution is from 20 to 63 years old. The samples of both hands were collected from two separate sessions. Eight samples from each hand were collected in each session. The interval between the two sessions was 24.5 days on average. When collecting samples, the subject was asked to roll the rollers of the LPS device. A subject was trained for less than 30 seconds before the sampling. In this short-time training, a helper demonstrated the sampling process for two to three times, and then each subject tried for three to eight times on LPS, before the sampling in each session. Our database contains 8000 samples from 500 different palms. The resolution of the samples is $720\times720$ (100dpi). The images captured by the proposed device are shown in Fig. [9](#fig_raw).
+The line-scan palmprint database is built including 8000 LPS samples from 250 people. The subjects are volunteers from universities and neighboring communities. In the database, 189 people are male, and the age distribution is from 20 to 63 years old. The samples of both hands were collected from two separate sessions. Eight samples from each hand were collected in each session. The interval between the two sessions was 24.5 days on average. When collecting samples, the subject was asked to roll the rollers of the LPS device. A subject was trained for less than 30 seconds before the sampling. In this short-time training, a helper demonstrated the sampling process for two to three times, and then each subject tried for three to eight times on LPS, before the sampling in each session. Our database contains 8000 samples from 500 different palms. The resolution of the samples is \\( 720 \times 720\\) (100dpi). The images captured by the proposed device are shown in Fig. [9](#fig_raw).
 
 ### Verification Experiment
 

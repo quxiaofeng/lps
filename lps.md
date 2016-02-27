@@ -121,7 +121,7 @@ Nowadays, a biometric acquisition system is expected to have both desktop and em
 </a>
 *Fig. 4 Diagram of the system framework.*
 
-To achieve these objectives, all parts of the system should be considered, as shown in Tabletable_factors.
+To achieve these objectives, all parts of the system should be considered, as shown in [Table I](#table_factors).
 
 The data flow speed of the system is defined by the slowest part. Hence, each part should be optimized to maximum speed. First, the synchronizing unit should generate accurate synchronizing pulses according to the movement of the hand to minimize the lag. Second, the sensor should be fast enough for real-time image capturing to minimize the data waiting time in the buffer. The driver of the sensor should generate driver signals at a proper speed and accurate timing to minimize the lag. Third, the speed of the A/D converter should be faster than the output of the pixels. A buffer could help cache the data while waiting for transfer through the interface. With this setting, the data flow speed is only dependent on the image sensor.
 
@@ -131,7 +131,7 @@ To capture images with proper quality, the sensor, the optical system, and the s
 
 A line-scan sensor is a kind of image sensor with a very simple structure ([Fischer2003][Fischer2003], [Watanabe2006][Watanabe2006], [Marino2007][Marino2007], [Luna2010][Luna2010], [Chang2012][Chang2012]). The photodiodes are simply arranged in a linear array or a single line. Applications using line-scan sensors are designed with either the camera or object moving in a vertical direction. They are used in applications in which the object motion is under rigid control, for example, document scanning. They can be made by CCD or CMOS technology.
 
-Instead of a traditional line-scan CCD or CMOS sensor chip, a new and highly integrated CMOS line-scan sensor module -- CIS is designed for the proposed system. This CMOS line-scan sensor module is an integrated module that includes LED lights, micro lenses, and several CMOS line-scan sensors. These parts are integrated into one package, and all the control signals are pinned out through one common connector. This module is produced in a professional factory, who assures its quality by calibrating the lens, the sensor chip, and the LED lights according to our requirements. The major features are listed in Tabletable_chars. This sensor is 183 mm long to enable capture of the whole hand. The vertical length of the captured area is the same as the horizontal length of the captured area, which is also 183 mm. The average hand length is 189 mm for a male and 172 mm for a female ([Theaveragebody2012][Theaveragebody2012]). The palm is typically shorter than the hand. The average hand width, which is also the width of the palm, is 84 mm for male and 74 mm for female ([Theaveragebody2012][Theaveragebody2012]). The area that the sensor captures is sufficiently larger than both masculine and feminine palms. It also covers parts of the fingers and the wrist.
+Instead of a traditional line-scan CCD or CMOS sensor chip, a new and highly integrated CMOS line-scan sensor module -- CIS is designed for the proposed system. This CMOS line-scan sensor module is an integrated module that includes LED lights, micro lenses, and several CMOS line-scan sensors. These parts are integrated into one package, and all the control signals are pinned out through one common connector. This module is produced in a professional factory, who assures its quality by calibrating the lens, the sensor chip, and the LED lights according to our requirements. The major features are listed in [Table II](#table_chars). This sensor is 183 mm long to enable capture of the whole hand. The vertical length of the captured area is the same as the horizontal length of the captured area, which is also 183 mm. The average hand length is 189 mm for a male and 172 mm for a female ([Theaveragebody2012][Theaveragebody2012]). The palm is typically shorter than the hand. The average hand width, which is also the width of the palm, is 84 mm for male and 74 mm for female ([Theaveragebody2012][Theaveragebody2012]). The area that the sensor captures is sufficiently larger than both masculine and feminine palms. It also covers parts of the fingers and the wrist.
 
 The resolution of this CIS sensor is 100 dpi, and can be configured to 200 dpi and 50 dpi. The resolution of the sensor determines the horizontal resolution of the captured image. The optimal resolution is 100 dpi according to studies of the physical resolution of palmprint features by [Shu and Zhang][Shu1998], [Zhang et al.][Zhang1999], [Zhang and Shu][Zhang2003a], and [Wong et al.][Wong2005].
 
@@ -141,7 +141,7 @@ After capturing an image, this CIS sensor outputs the data through three paralle
 
 This CIS module is equipped with a rod lens array (RLA). The RLA is an array of cylindrical rod lenses, which are highly polished small diameter rods made of transparent homogeneous materials. They work as cylindrical lens for the linear array CMOS sensor pixel by pixel. The typical working distance of this kind of lens is about several millimeters. In the customized module, it was 3mm (-2 mm / +4 mm).
 
-As shown in Tabletable_chars, there are four types of LEDs deployed in our CIS module, 630 nm for red, 520 nm for green, 465 nm for blue and 940 nm for infrared spectra. Typical palmprint features lay in the visible spectrum, from 380 nm to 780 nm. They make a hybrid of white with color temperature of 6500K. Recent research ([Zhang2010][Zhang2010]) has discovered that multi-spectral palmprint images are better than traditional palmprint recognition using the visible spectrum only. In the proposed CIS module, near infrared LEDs are deployed with the same intensity as the white light. The combination of visible and infrared illumination is good for anti-spoofing.
+As shown in [Table II](#table_chars), there are four types of LEDs deployed in our CIS module, 630 nm for red, 520 nm for green, 465 nm for blue and 940 nm for infrared spectra. Typical palmprint features lay in the visible spectrum, from 380 nm to 780 nm. They make a hybrid of white with color temperature of 6500K. Recent research ([Zhang2010][Zhang2010]) has discovered that multi-spectral palmprint images are better than traditional palmprint recognition using the visible spectrum only. In the proposed CIS module, near infrared LEDs are deployed with the same intensity as the white light. The combination of visible and infrared illumination is good for anti-spoofing.
 
 ### 3.4 Synchronizing Unit
 
@@ -274,7 +274,7 @@ The EER of the verification experiment is 0.048% when the FAR equals the FRR. Co
 
 ### 4.3 Comparisons with Current Area Sensor-Based Palmprint Systems
 
-A detailed comparison with area sensor-based palmprint system is shown in Tabletable_compare. The shape of LPS is 22 cm \\( \\times \\) 5 cm \\( \\times \\) 5 cm. Compared with current area image sensor-based palmprint acquisition systems (32 cm \\( \\times \\) 16 cm \\( \\times \\) 19 cm ([Zhang2003a][Zhang2003a]), 32 cm \\( \\times \\) 16 cm \\( \\times \\) 19 cm ([Wong2005][Wong2005]), 34 cm \\( \\times \\) 28 cm \\( \\times \\) 26 cm ([Zhang2010][Zhang2010])), the proposed system is much smaller. The volume of the proposed system is less than 6% of the volume of the area-based ones. The volume of area sensor-based systems could not be reduced further using the same imaging structure. Theoretically, the area-based design could not reduce the shape smaller than 16 cm \\( \\times \\) 16 cm \\( \\times \\) 20 cm, considering the space taken by the optical path and the back cover. In contrast, the shape of LPS could be further reduced after moderate improvements.
+A detailed comparison with area sensor-based palmprint system is shown in [Table III](#table_compare). The shape of LPS is 22 cm \\( \\times \\) 5 cm \\( \\times \\) 5 cm. Compared with current area image sensor-based palmprint acquisition systems (32 cm \\( \\times \\) 16 cm \\( \\times \\) 19 cm ([Zhang2003a][Zhang2003a]), 32 cm \\( \\times \\) 16 cm \\( \\times \\) 19 cm ([Wong2005][Wong2005]), 34 cm \\( \\times \\) 28 cm \\( \\times \\) 26 cm ([Zhang2010][Zhang2010])), the proposed system is much smaller. The volume of the proposed system is less than 6% of the volume of the area-based ones. The volume of area sensor-based systems could not be reduced further using the same imaging structure. Theoretically, the area-based design could not reduce the shape smaller than 16 cm \\( \\times \\) 16 cm \\( \\times \\) 20 cm, considering the space taken by the optical path and the back cover. In contrast, the shape of LPS could be further reduced after moderate improvements.
 
 The proposed LPS with the novel synchronizing unit has improved the speed performance of the palmprint sampling process. LPS works faster than area-based ones when the hand is moving fast. More importantly, LPS captures samples according to the user's movement. The speed of capture is self-adaptive to the user. The capture timing is synchronized to the movement of the human hand.
 
@@ -304,6 +304,7 @@ Future research of LPS could go in three directions. First, with further study o
 [Goh2006]: ./
 [Guo2009]: ./
 [Guo2009a]: ./
+[Guo2009coc]: ./
 [Han2003]: ./
 [Han2007b]: ./
 [Han2007c]: ./
@@ -315,6 +316,7 @@ Future research of LPS could go in three directions. First, with further study o
 [Kim2001]: ./
 [Kong2002]: ./
 [Kong2003]: ./
+[Kong2004compcode]: ./
 [Kong2006]: ./
 [Kong2009]: ./
 [Kumar2003]: ./
@@ -343,5 +345,3 @@ Future research of LPS could go in three directions. First, with further study o
 [Zheng2007a]: ./
 [Zhu2010]: ./
 [Zuo2008b]: ./
-[Guo2009coc]: ./
-[Kong2004compcode]: ./

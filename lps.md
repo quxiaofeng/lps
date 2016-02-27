@@ -69,17 +69,17 @@ In WCBS, the problem of the calibration of hand pose variations in three-dimensi
 
 ### 2.3 Palmprint Systems with Pegged Flat Platen Surface
 
-\beginfigure*[!ht]
-\centering
-\subfloat[]
-  \includegraphics[width=1.8 in]2a\labelfig_areasys_1~
-\subfloat[]
-  \includegraphics[width=2.8 in]2b\labelfig_areasys_2
-\captionTypical palmprint devices with a pegged flat platen surface. (a) PC based area palmprint device. (b) Embedded area palmprint device.
-\labelfig_areasys
-\endfigure*
+<a name="fig_areasys_1">
+![](/images/fig_areasys_1.svg)
+</a>
+\\[ (a) \\]
+<a name="fig_areasys_2">
+![](/images/fig_areasys_2.svg)
+</a>
+\\[ (b) \\]
+*Fig. 2 Typical palmprint devices with a pegged flat platen surface. (a) PC based area palmprint device. (b) Embedded area palmprint device.*
 
-Palmprint systems with pegged flat platen surface (Kong2002, Zhang2003a, Kong2003, Wong2005, Kong2006, Hao2008, Wang2008, Kong2009, Li2009, Zhang2009, Zhang2010, Zhang2010b) have been popular in recent research. This design keeps the hand stable, avoids background interferences, captures quality images, and achieves a good recognition performance. The hand is held by the pegged flat platen surface in this kind of devices, as Fig.fig_areasys_1 and Fig.fig_areasys_2  show. The user interface platen of this kind of palmprint systems covers most area. Only the parts between the fingers are left and then protected by the upper cover. Currently the best results reported in research articles are mostly achieved in the database captured by Zhang's device, and the EERs are summarized to be distributed from 0.267% to 0.012% (Ito2006, Hao2008, Wang2008, Zuo2008b, Guo2009a, Laadjel2009a, Guo2009, Zhang2010, Zhang2010b, Li2012a), which would be generally better than other systems' EERs, which range from 0.26% to over 4.73% (Ong2003, Han2003, Kumar2003, Lin2005, Connie2005, Goh2006, Badrinath2007, [Han et al.][Han2007b], Struc2008, Ong2010).
+Palmprint systems with pegged flat platen surface ([Kong2002][Kong2002], [Zhang2003a][Zhang2003a], [Kong2003][Kong2003], [Wong2005][Wong2005], [Kong2006][Kong2006], [Hao2008][Hao2008], [Wang2008][Wang2008], [Kong2009][Kong2009], [Li2009][Li2009], [Zhang2009][Zhang2009], [Zhang2010][Zhang2010], [Zhang2010b][Zhang2010b]) have been popular in recent research. This design keeps the hand stable, avoids background interferences, captures quality images, and achieves a good recognition performance. The hand is held by the pegged flat platen surface in this kind of devices, as Fig. [2a](#fig_areasys_1) and Fig. [2b](#fig_areasys_2)  show. The user interface platen of this kind of palmprint systems covers most area. Only the parts between the fingers are left and then protected by the upper cover. Currently the best results reported in research articles are mostly achieved in the database captured by Zhang's device, and the EERs are summarized to be distributed from 0.267% to 0.012% (Ito2006, Hao2008, Wang2008, Zuo2008b, Guo2009a, Laadjel2009a, Guo2009, Zhang2010, Zhang2010b, Li2012a), which would be generally better than other systems' EERs, which range from 0.26% to over 4.73% (Ong2003, Han2003, Kumar2003, Lin2005, Connie2005, Goh2006, Badrinath2007, [Han et al.][Han2007b], Struc2008, Ong2010).
 
 This kind of palmprint system uses an area scan camera, which is a camera with an area scan charge-coupled device (CCD) or complementary metal-oxide-semiconductor (CMOS) sensor. When an area scan camera captures images, all pixels of a frame are captured at the same time. Then, electrons of pixels are transferred line by line to the output channel and are amplified and sent to the output port pixel by pixel.
 

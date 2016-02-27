@@ -175,11 +175,11 @@ In our prototype device, the photoelectric encoder is industry standard at 500 p
 An FPGA board was built as the controller. It is composed of a CIS driver, an A/D controller, a data buffer, and a USB interface. The block diagram of the controller is shown in [Fig. 6a](#fig_block_controller).
 
 <a name="fig_block_controller">
-![](/images/fig_block_controller.svg)
+![](/images/fpga-board-block-diagram.png)
 </a>
 \\[ (a) \\]
-<a name="fig_layout_controlle">
-![](/images/fig_layout_controlle.svg)
+<a name="fig_layout_controller">
+![](/images/fpga-board-pcb-layout.png)
 </a>
 \\[ (b) \\]
 *Fig. 6 The controller board of LPS. (a) Scheme block diagram. (b) Printed circuit board layout.*
@@ -195,11 +195,11 @@ The printed circuit board layout is shown in [Fig. 6b](#fig_layout_controller). 
 [Fig. 7](#fig_device_demo) shows the proposed acquisition system, which is composed of the line-scan sensor, the synchronizing unit, and the controller board. The proposed system could capture LPS images with either a desktop computer or an embedded ARM platform. The only two interfaces connected to the device are a 12 V power supply and a USB mini B plug.
 
 <a name="fig_device_photo">
-![](/images/fig_device_photo.svg)
+![](/images/line-scan-palmprint-device-model.png)
 </a>
 \\[ (a) \\]
 <a name="fig_demo_photo">
-![](/images/fig_demo_photo.svg)
+![](/images/line-palmprint-demo.png)
 </a>
 \\[ (b) \\]
 *Fig. 7 The proposed acquisition system. (a) The 3D design model of the acquisition system. (b) A right hand was being tested on the acquisition system.*

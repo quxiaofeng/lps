@@ -177,13 +177,13 @@ Given a gear ratio, \\( R_g \\), and the diameter of rollers, \\( D_R \\), when 
 S_M = \frac{\frac{P}{R_f}}{M_R} =\frac{P}{M_R \\cdot R_f}
 \\]
 
-Here, the unit of the $S_M$ is lines per mm. One inch is 25.4mm. Thus, the resolution $S_L$ (in dpi) can be defined as equation (eqn_pulses).
+Here, the unit of the \\( S_M \\) is lines per mm. One inch is 25.4 mm. Thus, the resolution \\( S_L \\) (in dpi) can be defined as the equation below.
 
-\beginequation\labeleqn_pulses
-S_L=25.4\timesS_M=\frac25.4\timesPM_R\cdotR_f=\frac25.4\timesP_e\pi\cdotD_R\cdotR_g\cdotR_f
-\endequation
+\\[
+S_L = 25.4 \\times S_M = \\frac{25.4 \\times P}{M_R \\cdot R_f} = \\frac{25.4 \\times P_e}{\\pi \\cdot D_R \\cdot R_g \\cdot R_f}
+\\]
 
-In our prototype device, the photoelectric encoder is industry standard at 500 pulses per round ($P_e=500$). The rollers' diameter is 10mm. The gear ratio $R_g$ is $2 : 1$. The filter ratio $R_f$ is $2 : 1$. Under this condition, the vertical resolution (along the rolling direction) is 101.1dpi, which is close to the resolution along the width direction of the CIS module (100dpi).
+In our prototype device, the photoelectric encoder is industry standard at 500 pulses per round (\\( P_e = 500\\)). The rollers' diameter is 10mm. The gear ratio \\( R_g \\) is \\( 2 : 1 \\). The filter ratio \\( R_f \\) is \\( 2 : 1 \\). Under this condition, the vertical resolution (along the rolling direction) is 101.1 dpi, which is close to the resolution along the width direction of the CIS module (100dpi).
 
 ### Controller Board
 

@@ -109,7 +109,7 @@ Though a line-scan sensor resembles a swipe fingerprint sensor, they are not the
 
 When building a system based on the line-scan sensor, there is a challenge of motion synchronizing. A line-scan image sensor captures images only with the help of a scanning unit that moves the object or the sensor along the vertical direction. The benefit of this structure is that continuous images of objects could be captured, and a long or large object could be captured by a thin or small sensor. However, an extra unit, which synchronizes the movement of the sensor and the object, is required.
 
-This synchronization problem was solved in industrial machine vision systems. In industrial machine vision systems, line-scan image sensors and cameras have been used for decades. A typical structure of an industrial line-scan system consists of a line-scan camera, a conveyor belt and a motion controller \([Kim2001][Kim2001], [Baykal2004][Baykal2004]). Objects are moving smoothly on the conveyor belt when the line-scan camera is taking line images. A motion controller monitors and adjusts the moving speed of the conveyor belt, and triggers the line-scan camera to capture images synchronously.
+This synchronization problem was solved in industrial machine vision systems. In industrial machine vision systems, line-scan image sensors and cameras have been used for decades. A typical structure of an industrial line-scan system consists of a line-scan camera, a conveyor belt and a motion controller ([Kim2001][Kim2001], [Baykal2004][Baykal2004]). Objects are moving smoothly on the conveyor belt when the line-scan camera is taking line images. A motion controller monitors and adjusts the moving speed of the conveyor belt, and triggers the line-scan camera to capture images synchronously.
 
 
 <a name="fig_framework">
@@ -295,6 +295,7 @@ Future research of LPS could go in three directions. First, with further study o
 
 [Aykut2013]: ./
 [Badrinath2007]: ./
+[Baykal2004]: ./
 [Biometricapplications2011]: http://findbiometrics.com/applications/
 [Chaudhary2009]: ./
 [Connie2005]: ./
@@ -309,6 +310,7 @@ Future research of LPS could go in three directions. First, with further study o
 [Ito2006]: ./
 [Jain2009]: http://biometrics.cse.msu.edu/Publications/Palmprints/JainFeng_LatentPalm_PAMI2008.pdf
 [Kanhangad2011a]: ./
+[Kim2001]: ./
 [Kong2002]: ./
 [Kong2003]: ./
 [Kong2006]: ./

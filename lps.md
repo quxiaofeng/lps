@@ -5,6 +5,21 @@ permalink: /lps/
 
 # [A Novel Line-Scan Palmprint Acquisition System](/lps/) #
 
+[Xiaofeng QU](http://www.quxiaofeng.me/about)
+Biometrics Research Centre
+Department of Computing
+The Hong Kong Polytechnic University
+
+[David ZHANG](http://www4.comp.polyu.edu.hk/~csdzhang/)
+Biometrics Research Centre
+Department of Computing
+The Hong Kong Polytechnic University
+
+[Guangming LU](http://www.hitsz.edu.cn/body/shizi/detailen.php?strID=396)
+Biocomputing Research Center
+Shenzhen Graduate School
+The Harbin Institute of Technology
+
 [Return to Home](/)
 
 ![](http://images.freeimages.com/images/previews/7d5/under-construction-icon-1242121.jpg)

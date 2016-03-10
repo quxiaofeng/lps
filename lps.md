@@ -3,9 +3,9 @@ layout: default
 permalink: /lps/
 ---
 
-# [A Novel Line-Scan Palmprint Acquisition System](/lps/) #
+[Home](/)
 
-[Return to Home](/)
+# [A Novel Line-Scan Palmprint Acquisition System](/lps/) #
 
 [**Xiaofeng QU**](http://www.quxiaofeng.me/about),
 [**David ZHANG**](http://www4.comp.polyu.edu.hk/~csdzhang/),

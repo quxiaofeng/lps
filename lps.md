@@ -7,9 +7,9 @@ permalink: /lps/
 
 [Return to Home](/)
 
-+ [**Xiaofeng QU**](http://www.quxiaofeng.me/about)
-+ [**David ZHANG**](http://www4.comp.polyu.edu.hk/~csdzhang/)
-+ [**Guangming LU**](http://www.hitsz.edu.cn/body/shizi/detailen.php?strID=396)
+[**Xiaofeng QU**](http://www.quxiaofeng.me/about),
+[**David ZHANG**](http://www4.comp.polyu.edu.hk/~csdzhang/),
+[**Guangming LU**](http://www.hitsz.edu.cn/body/shizi/detailen.php?strID=396)
 
 ![](http://images.freeimages.com/images/previews/7d5/under-construction-icon-1242121.jpg)
 

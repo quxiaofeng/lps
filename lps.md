@@ -7,13 +7,13 @@ permalink: /lps/
 
 # [A Novel Line-Scan Palmprint Acquisition System](/lps/) #
 
-[**Xiaofeng QU**](http://www.quxiaofeng.me/about),
-[**David ZHANG**](http://www4.comp.polyu.edu.hk/~csdzhang/),
-[**Guangming LU**](http://www.hitsz.edu.cn/body/shizi/detailen.php?strID=396)
+[**Xiaofeng QU**][csxfqu],
+[**David ZHANG**][csdzhang],
+[**Guangming LU**][csgmlu]
 
 ![](http://images.freeimages.com/images/previews/7d5/under-construction-icon-1242121.jpg)
 
-[Qu, Xiaofeng; Zhang, David; Lu, Guangming, "A Novel Line-Scan Palmprint Acquisition System," *in Systems, Man, and Cybernetics: Systems, IEEE Transactions on , vol.PP, no.99, pp.1-11*](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7390297)
+[Qu, Xiaofeng][csxfqu]; [Zhang, David][csdzhang]; [Lu, Guangming][csgmlu], "[A Novel Line-Scan Palmprint Acquisition System][TSMC-LPS]," *in Systems, Man, and Cybernetics: Systems, IEEE Transactions on , vol.PP, no.99, pp.1-11*.
 
 ## Abstract ##
 
@@ -349,3 +349,11 @@ Future research of LPS could go in three directions. First, with further study o
 [Zheng2007a]: ./
 [Zhu2010]: ./
 [Zuo2008b]: ./
+
+
+
+
+[TSMC-LPS]: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7390297
+[csxfqu]: http://www.quxiaofeng.me/about
+[csdzhang]: http://www4.comp.polyu.edu.hk/~csdzhang/
+[csgmlu]: http://www.hitsz.edu.cn/body/shizi/detailen.php?strID=396

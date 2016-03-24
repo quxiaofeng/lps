@@ -9,7 +9,7 @@ permalink: /lps/
 
 [**Xiaofeng QU**][csxfqu],
 [**David ZHANG**][csdzhang],
-[**Guangming LU**][csgmlu]
+and [**Guangming LU**][csgmlu]
 
 ![](http://images.freeimages.com/images/previews/7d5/under-construction-icon-1242121.jpg)
 

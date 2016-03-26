@@ -30,6 +30,8 @@ permalink: /cn/
 
 West lake
 
+birthday ice cream cake
+
 
 图像传感器
 ------

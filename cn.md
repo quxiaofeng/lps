@@ -28,6 +28,8 @@ permalink: /cn/
 
 ![线扫描掌纹采集设备演示系统](/images/line-palmprint-demo.png)
 
+West lake
+
 
 图像传感器
 ------

@@ -9,18 +9,12 @@ layout: default
 Demo
 -------
 
-
-
 ![Line Scan Palmprint Device Model](/images/line-scan-palmprint-device-model.png)
 
 ![Line Scan Palmprint Device Demo](/images/line-palmprint-demo.png)
 
-
-
 Sensor
 ------
-
-
 
 System
 ------

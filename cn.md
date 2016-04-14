@@ -7,8 +7,6 @@ permalink: /cn/
 
 [English](/) \\( \\qquad \\) [**中文**](/cn/)
 
-![](http://images.freeimages.com/images/previews/7d5/under-construction-icon-1242121.jpg)
-
 ## 简介 ##
 
 掌纹识别精度高、可靠性好、用户使用方便容易，但一般来说掌纹识别系统占用空间比较大，难以嵌入到其他系统中使用。

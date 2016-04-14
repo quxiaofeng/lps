@@ -63,7 +63,7 @@ In our prototype device, the photoelectric encoder is industry standard at 500 p
 
 FPGA 功能如下图所示。
 
-![FPGA 电路板框图](/images/fpga-board-block-diagram.png)
+![FPGA 电路板框图](/images/fpga-board-block-diagram.svg)
 
 FPGA 电路板尺寸及布线如下图所示。
 

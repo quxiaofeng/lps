@@ -75,11 +75,11 @@ In WCBS, the problem of the calibration of hand pose variations in three-dimensi
 Palmprint systems with pegged flat platen surface ([Kong2002][Kong2002], [Zhang2003a][Zhang2003a], [Kong2003][Kong2003], [Wong2005][Wong2005], [Kong2006][Kong2006], [Hao2008][Hao2008], [Wang2008][Wang2008], [Kong2009][Kong2009], [Li2009][Li2009], [Zhang2009][Zhang2009], [Zhang2010][Zhang2010], [Zhang2010b][Zhang2010b]) have been popular in recent research. This design keeps the hand stable, avoids background interferences, captures quality images, and achieves a good recognition performance. The hand is held by the pegged flat platen surface in this kind of devices, as [Fig. 2a](#fig_areasys_1) and [Fig. 2b](#fig_areasys_2)  show. The user interface platen of this kind of palmprint systems covers most area. Only the parts between the fingers are left and then protected by the upper cover. Currently the best results reported in research articles are mostly achieved in the database captured by Zhang's device, and the EERs are summarized to be distributed from 0.267% to 0.012% ([Ito2006][Ito2006], [Hao2008][Hao2008], [Wang2008][Wang2008], [Zuo2008b][Zuo2008b], [Guo2009a][Guo2009a], [Laadjel2009a][Laadjel2009a], [Guo2009][Guo2009], [Zhang2010][Zhang2010], [Zhang2010b][Zhang2010b], [Li2012a][Li2012a]), which would be generally better than other systems' EERs, which range from 0.26% to over 4.73% ([Ong2003][Ong2003], [Han2003][Han2003], [Kumar2003][Kumar2003], [Lin2005][Lin2005], [Connie2005][Connie2005], [Goh2006][Goh2006], [Badrinath2007][Badrinath2007], [Han et al., 2007b][Han2007b], [Struc2008][Struc2008], [Ong2010][Ong2010]).
 
 <a name="fig_areasys_1">
-![](/images/fig_areasys_1.svg)
+![](/images/fig_areasys_1.png)
 </a>
 \\[ (a) \\]
 <a name="fig_areasys_2">
-![](/images/fig_areasys_2.svg)
+![](/images/fig_areasys_2.png)
 </a>
 \\[ (b) \\]
 *Fig. 2 Typical palmprint devices with a pegged flat platen surface. (a) PC based area palmprint device. (b) Embedded area palmprint device.*
@@ -152,7 +152,7 @@ As shown in [Table II](#table_chars), there are four types of LEDs deployed in o
 A synchronizing unit is designed to synchronize the motion of the hand with the CIS module capturing. The synchronizing unit consists of a pair of rollers, a gear set, and a photoelectric encoder, as is shown in [Fig. 5](#fig_syncunit). First, when the hand rolls through the rollers, the synchronizing unit sends synchronizing pulse signals to the CIS sensor using the encoder derived by the gear set. Second, the rollers hold the hand flattened and stretched. Otherwise, the palm could touch the surface of the CIS sensor, it would squeeze and the lines and texture could be distorted. Meanwhile, the rollers keep the hand skin 2 mm \\( \\sim \\) 4 mm above the surface. The CIS module only captures objects in a distance of 1 mm \\( \\sim \\) 7 mm. The depth of view is limited by the micro lenses. It requires pressure to push the roller. Thus, the hand is pressing on the rollers with a moderate force. The force moves the roller, stretches the skin of the palmprint, and keeps it flattened. Third, the distance between the two rollers is minimized to avoid a large displacement of the hand skin. Also, the two rollers are made of the same size to maintain a stable motion. They are synchronized by the gear set rolling at the same angular velocity. The hand motion on these rollers is both stable and synchronized.
 
 <a name="fig_syncunit">
-![](/images/fig_syncunit.svg)
+![](/images/fig_syncunit.png)
 </a>
 *Fig. 5 CIS module and the synchronizing unit composed of a pair of rollers, a set of gears and an optical encoder.*
 
@@ -179,7 +179,7 @@ In our prototype device, the photoelectric encoder is industry standard at 500 p
 An FPGA board was built as the controller. It is composed of a CIS driver, an A/D controller, a data buffer, and a USB interface. The block diagram of the controller is shown in [Fig. 6a](#fig_block_controller).
 
 <a name="fig_block_controller">
-![](/images/fpga-board-block-diagram.png)
+![](/images/fpga-board-block-diagram.svg)
 </a>
 \\[ (a) \\]
 <a name="fig_layout_controller">
@@ -217,7 +217,7 @@ When evaluating an image acquisition system for a biometric system, the most imp
 The line-scan palmprint database is built including 8000 LPS samples from 250 people. The subjects are volunteers from universities and neighboring communities. In the database, 189 people are male, and the age distribution is from 20 to 63 years old. The samples of both hands were collected from two separate sessions. Eight samples from each hand were collected in each session. The interval between the two sessions was 24.5 days on average. When collecting samples, the subject was asked to roll the rollers of the LPS device. A subject was trained for less than 30 seconds before the sampling. In this short-time training, a helper demonstrated the sampling process for two to three times, and then each subject tried for three to eight times on LPS, before the sampling in each session. Our database contains 8000 samples from 500 different palms. The resolution of the samples is \\( 720 \times 720\\) (100dpi). The images captured by the proposed device are shown in [Fig. 8](#fig_raw).
 
 <a name="fig_raw">
-![](/images/fig_raw.svg)
+![](/images/fig_raw.png)
 </a>
 *Fig. 8 The captured palmprint images.*
 
@@ -235,36 +235,36 @@ To compare with current real-time online area based palmprint systems ([Zhang200
 The ROI extraction method is based on the work of [Guo et al.][Guo2009coc]. The extraction of ROI has five steps: preprocessing, binarization, cont our extraction, finding tangent points and computing ROI location, as is shown in [Fig. 10a](#fig_rawpalm) to [Fig. 10f](#fig_roiexample). This ROI extraction method has been used also in [Zhang2003a][Zhang2003a], [Wong2005][Wong2005], [Zhang2010][Zhang2010].
 
 <a name="fig_rawpalm">
-![](/images/fig_rawpalm.svg)
+![](/images/fig_rawpalm.png)
 </a>
 \\[ (a) \\]
 <a name="fig_binarization">
-![](/images/fig_binarization.svg)
+![](/images/fig_binarization.png)
 </a>
 \\[ (b) \\]
 <a name="fig_contour">
-![](/images/fig_contour.svg)
+![](/images/fig_contour.png)
 </a>
 \\[ (c) \\]
 <a name="fig_tangents">
-![](/images/fig_tangents.svg)
+![](/images/fig_tangents.png)
 </a>
 \\[ (d) \\]
 <a name="fig_roiregion">
-![](/images/fig_roiregion.svg)
+![](/images/fig_roiregion.png)
 </a>
 \\[ (e) \\]
 <a name="fig_roiexample">
-![](/images/fig_roiexample.svg)
+![](/images/fig_roiexample.bmp)
 </a>
 \\[ (f) \\]
 *Fig. 10 Five-step ROI extraction. (a) a palmprint sample; (b) binarization result; (c) contour extraction; (d) tangents points found; (e) located ROI; and (f) extracted ROI.*
 
 <a name="fig_rois">
-![](/images/fig_rois_1.svg)
-![](/images/fig_rois_2.svg)
-![](/images/fig_rois_3.svg)
-![](/images/fig_rois_4.svg)
+![](/images/fig_rois_1.bmp)
+![](/images/fig_rois_2.bmp)
+![](/images/fig_rois_3.bmp)
+![](/images/fig_rois_4.bmp)
 </a>
 *Fig. 11 Extracted palmprint ROIs.*
 

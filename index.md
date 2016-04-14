@@ -47,7 +47,7 @@ In our prototype device, the photoelectric encoder is industry standard at 500 p
 
 ### FPGA Board
 
-![FPGA Board Block Diagram](/images/fpga-board-block-diagram.png)
+![FPGA Board Block Diagram](/images/fpga-board-block-diagram.svg)
 
 ![FPGA Board PCB Layout](/images/fpga-board-pcb-layout.png)
 

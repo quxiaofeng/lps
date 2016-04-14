@@ -125,7 +125,7 @@ Nowadays, a biometric acquisition system is expected to have both desktop and em
 To achieve these objectives, all parts of the system should be considered, as shown in [Table I](#table_factors).
 
 <a name="table_factors"></a>
-*TABLE I*
+*TABLE I*<br>
 *KEY FACTORS RELATED TO SPEED, IMAGE QUALITY, AND USER EXPERIENCE*
 ![](/images/table_factors.png)
 
@@ -140,7 +140,7 @@ A line-scan sensor is a kind of image sensor with a very simple structure ([Fisc
 Instead of a traditional line-scan CCD or CMOS sensor chip, a new and highly integrated CMOS line-scan sensor module -- CIS is designed for the proposed system. This CMOS line-scan sensor module is an integrated module that includes LED lights, micro lenses, and several CMOS line-scan sensors. These parts are integrated into one package, and all the control signals are pinned out through one common connector. This module is produced in a professional factory, who assures its quality by calibrating the lens, the sensor chip, and the LED lights according to our requirements. The major features are listed in [Table II](#table_chars). This sensor is 183 mm long to enable capture of the whole hand. The vertical length of the captured area is the same as the horizontal length of the captured area, which is also 183 mm. The average hand length is 189 mm for a male and 172 mm for a female ([Theaveragebody2012][Theaveragebody2012]). The palm is typically shorter than the hand. The average hand width, which is also the width of the palm, is 84 mm for male and 74 mm for female ([Theaveragebody2012][Theaveragebody2012]). The area that the sensor captures is sufficiently larger than both masculine and feminine palms. It also covers parts of the fingers and the wrist.
 
 <a name="table_chars"></a>
-*TABLE II*
+*TABLE II*<br>
 *LINE-SCAN IMAGE SENSOR (CIS MODULE) CHARACTERISTICS*
 ![](/images/table_chars.png)
 
@@ -288,7 +288,7 @@ The EER of the verification experiment is 0.048% when the FAR equals the FRR. Co
 A detailed comparison with area sensor-based palmprint system is shown in [Table III](#table_compare). The shape of LPS is 22 cm \\( \\times \\) 5 cm \\( \\times \\) 5 cm. Compared with current area image sensor-based palmprint acquisition systems (32 cm \\( \\times \\) 16 cm \\( \\times \\) 19 cm ([Zhang2003a][Zhang2003a]), 32 cm \\( \\times \\) 16 cm \\( \\times \\) 19 cm ([Wong2005][Wong2005]), 34 cm \\( \\times \\) 28 cm \\( \\times \\) 26 cm ([Zhang2010][Zhang2010])), the proposed system is much smaller. The volume of the proposed system is less than 6% of the volume of the area-based ones. The volume of area sensor-based systems could not be reduced further using the same imaging structure. Theoretically, the area-based design could not reduce the shape smaller than 16 cm \\( \\times \\) 16 cm \\( \\times \\) 20 cm, considering the space taken by the optical path and the back cover. In contrast, the shape of LPS could be further reduced after moderate improvements.
 
 <a name="table_compare"></a>
-*TABLE II*
+*TABLE III*<br>
 *COMPARISON BETWEEN THE LPS AND AREA SCAN SYSTEMS*
 ![](/images/table_compare.png)
 

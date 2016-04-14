@@ -118,12 +118,16 @@ However, the problem is different when building an LPS, and it is still a challe
 
 Nowadays, a biometric acquisition system is expected to have both desktop and embedded versions. Biometric applications using these acquisition systems deployed in handheld or mobile platforms are very popular ([Han2007c][Han2007c], [Jia2012][Jia2012], [Shen2012][Shen2012]). A framework, in which both the desktop computation platform and the embedded platform are compatible with the same image-capturing device, is proposed for our line-scan sensor based system. The framework is illustrated in [Fig. 4](#fig_framework). This framework uses an embedded controller, which regulates all the device parts and communicates with the computation platform through a universal interface. With this structure, the proposed palmprint capturing device could be used in both desktop applications and embedded applications with respective drivers. In palmprint acquisition systems, the image-capturing speed, the image quality, and the user interface design are the most important parts to achieve the goal of the proposed system.
 
-<a name="fig_framework">
+<a name="fig_framework"></a>
 ![](/images/fig_framework.svg)
-</a>
 *Fig. 4 Diagram of the system framework.*
 
 To achieve these objectives, all parts of the system should be considered, as shown in [Table I](#table_factors).
+
+<a name="table_factors"></a>
+*TABLE I*
+*KEY FACTORS RELATED TO SPEED, IMAGE QUALITY, AND USER EXPERIENCE*
+![](/images/table_factors.png)
 
 The data flow speed of the system is defined by the slowest part. Hence, each part should be optimized to maximum speed. First, the synchronizing unit should generate accurate synchronizing pulses according to the movement of the hand to minimize the lag. Second, the sensor should be fast enough for real-time image capturing to minimize the data waiting time in the buffer. The driver of the sensor should generate driver signals at a proper speed and accurate timing to minimize the lag. Third, the speed of the A/D converter should be faster than the output of the pixels. A buffer could help cache the data while waiting for transfer through the interface. With this setting, the data flow speed is only dependent on the image sensor.
 
@@ -134,6 +138,11 @@ To capture images with proper quality, the sensor, the optical system, and the s
 A line-scan sensor is a kind of image sensor with a very simple structure ([Fischer2003][Fischer2003], [Watanabe2006][Watanabe2006], [Marino2007][Marino2007], [Luna2010][Luna2010], [Chang2012][Chang2012]). The photodiodes are simply arranged in a linear array or a single line. Applications using line-scan sensors are designed with either the camera or object moving in a vertical direction. They are used in applications in which the object motion is under rigid control, for example, document scanning. They can be made by CCD or CMOS technology.
 
 Instead of a traditional line-scan CCD or CMOS sensor chip, a new and highly integrated CMOS line-scan sensor module -- CIS is designed for the proposed system. This CMOS line-scan sensor module is an integrated module that includes LED lights, micro lenses, and several CMOS line-scan sensors. These parts are integrated into one package, and all the control signals are pinned out through one common connector. This module is produced in a professional factory, who assures its quality by calibrating the lens, the sensor chip, and the LED lights according to our requirements. The major features are listed in [Table II](#table_chars). This sensor is 183 mm long to enable capture of the whole hand. The vertical length of the captured area is the same as the horizontal length of the captured area, which is also 183 mm. The average hand length is 189 mm for a male and 172 mm for a female ([Theaveragebody2012][Theaveragebody2012]). The palm is typically shorter than the hand. The average hand width, which is also the width of the palm, is 84 mm for male and 74 mm for female ([Theaveragebody2012][Theaveragebody2012]). The area that the sensor captures is sufficiently larger than both masculine and feminine palms. It also covers parts of the fingers and the wrist.
+
+<a name="table_chars"></a>
+*TABLE II*
+*LINE-SCAN IMAGE SENSOR (CIS MODULE) CHARACTERISTICS*
+![](/images/table_chars.png)
 
 The resolution of this CIS sensor is 100 dpi, and can be configured to 200 dpi and 50 dpi. The resolution of the sensor determines the horizontal resolution of the captured image. The optimal resolution is 100 dpi according to studies of the physical resolution of palmprint features by [Shu and Zhang][Shu1998], [Zhang et al.][Zhang1999], [Zhang and Shu][Zhang2003a], and [Wong et al.][Wong2005].
 
@@ -277,6 +286,11 @@ The EER of the verification experiment is 0.048% when the FAR equals the FRR. Co
 ### 4.3 Comparisons with Current Area Sensor-Based Palmprint Systems
 
 A detailed comparison with area sensor-based palmprint system is shown in [Table III](#table_compare). The shape of LPS is 22 cm \\( \\times \\) 5 cm \\( \\times \\) 5 cm. Compared with current area image sensor-based palmprint acquisition systems (32 cm \\( \\times \\) 16 cm \\( \\times \\) 19 cm ([Zhang2003a][Zhang2003a]), 32 cm \\( \\times \\) 16 cm \\( \\times \\) 19 cm ([Wong2005][Wong2005]), 34 cm \\( \\times \\) 28 cm \\( \\times \\) 26 cm ([Zhang2010][Zhang2010])), the proposed system is much smaller. The volume of the proposed system is less than 6% of the volume of the area-based ones. The volume of area sensor-based systems could not be reduced further using the same imaging structure. Theoretically, the area-based design could not reduce the shape smaller than 16 cm \\( \\times \\) 16 cm \\( \\times \\) 20 cm, considering the space taken by the optical path and the back cover. In contrast, the shape of LPS could be further reduced after moderate improvements.
+
+<a name="table_compare"></a>
+*TABLE II*
+*COMPARISON BETWEEN THE LPS AND AREA SCAN SYSTEMS*
+![](/images/table_compare.png)
 
 The proposed LPS with the novel synchronizing unit has improved the speed performance of the palmprint sampling process. LPS works faster than area-based ones when the hand is moving fast. More importantly, LPS captures samples according to the user's movement. The speed of capture is self-adaptive to the user. The capture timing is synchronized to the movement of the human hand.
 

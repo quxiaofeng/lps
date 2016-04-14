@@ -11,7 +11,7 @@ permalink: /lps/
 [**David ZHANG**][csdzhang],
 and [**Guangming LU**][csgmlu]
 
-[Qu, Xiaofeng][csxfqu]; [Zhang, David][csdzhang]; [Lu, Guangming][csgmlu], "[A Novel Line-Scan Palmprint Acquisition System][TSMC-LPS]," *in Systems, Man, and Cybernetics: Systems, IEEE Transactions on , vol.PP, no.99, pp.1-11*.
+> [Qu, Xiaofeng][csxfqu]; [Zhang, David][csdzhang]; [Lu, Guangming][csgmlu], "[A Novel Line-Scan Palmprint Acquisition System][TSMC-LPS]," *in Systems, Man, and Cybernetics: Systems, IEEE Transactions on , vol.PP, no.99, pp.1-11*.
 
 ## Abstract ##
 

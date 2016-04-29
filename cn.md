@@ -95,6 +95,7 @@ FPGA 电路板尺寸及布线如下图所示。
 
 包括使用线扫描 CCD 传感器的多次反射式掌纹图像采集设备和使用接触式线扫描模组的掌纹图像采集设备。两种采集设备都使用了相同运动反馈同步单元，既一对滚轴、齿轮组和光电编码器组成。
 
+[linear-system]: http://www.lustervision.com/new-product/xsmxj20156017.shtml
 [TSMC-LPS]: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7390297
 [csxfqu]: http://www.quxiaofeng.me/about
 [csdzhang]: http://www4.comp.polyu.edu.hk/~csdzhang/

@@ -2,16 +2,16 @@
 layout: default
 ---
 
-# [Line Scan Palmprint Recognition System](/) #
+# [Line Scan Palmprint Recognition System]({{site.baseurl}}/) #
 
-[**English**](/) \\( \\qquad \\) [中文](/cn/)
+[**English**]({{site.baseurl}}/) \\( \\qquad \\) [中文]({{site.baseurl}}/cn/)
 
 Demo
 -------
 
-![Line Scan Palmprint Device Model](/images/line-scan-palmprint-device-model.png)
+![Line Scan Palmprint Device Model]({{site.baseurl}}/images/line-scan-palmprint-device-model.png)
 
-![Line Scan Palmprint Device Demo](/images/line-palmprint-demo.png)
+![Line Scan Palmprint Device Demo]({{site.baseurl}}/images/line-palmprint-demo.png)
 
 Sensor
 ------
@@ -39,18 +39,18 @@ In our prototype device, the photoelectric encoder is industry standard at 500 p
 
 ### FPGA Board
 
-![FPGA Board Block Diagram](/images/fpga-board-block-diagram.svg)
+![FPGA Board Block Diagram]({{site.baseurl}}/images/fpga-board-block-diagram.svg)
 
-![FPGA Board PCB Layout](/images/fpga-board-pcb-layout.png)
+![FPGA Board PCB Layout]({{site.baseurl}}/images/fpga-board-pcb-layout.png)
 
 
 
 Future Applications
 ------------
 
-![Reflective Line Scan Palmprint Device](/images/reflective-line-scan-palmprint-device.png)
+![Reflective Line Scan Palmprint Device]({{site.baseurl}}/images/reflective-line-scan-palmprint-device.png)
 
-![Smaller Line Scan Palmprint Device](/images/smaller-line-scan-palmprint-device.png)
+![Smaller Line Scan Palmprint Device]({{site.baseurl}}/images/smaller-line-scan-palmprint-device.png)
 
 
 Publications
